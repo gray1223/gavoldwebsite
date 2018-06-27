@@ -1,0 +1,81 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 25vh;
+}
+
+.jumbotron {
+  width: 80vw;
+  max-width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-content-container  h1 {
+  width: 80vw;
+  font-size: 5vh;
+}
+
+.aerial-intro {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.images-landscapes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.images-landscapes img {
+  width: 80vw;
+  margin: 1vh;
+  border: 1vh solid #555555;
+}
+
+.aerial-gallery {
+  margin-bottom: 3vh;
+}
+
+.info-sections {
+  flex-direction: column;
+}
+
+#info-title {
+  width: 80vw;
+  font-weight: 500;
+  margin-top: 5vh;
+  font-size: 5vh;
+}
+
+.info-section {
+  width: 75vw;
+  height: 150vh;
+  padding: 4vh;
+  margin-bottom: 4vh;
+}
+
+.info-section p {
+  font-size: 3vh;
+}
+
+.info-section h2 {
+  font-size: 4vh;
+}
+
+.info-section h1 {
+  margin-top: 3vh;
+}
+
+#first-info {
+  height: 100vh;
+}
+
+footer {
+  font-size: 2vh;
+}

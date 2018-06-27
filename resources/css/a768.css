@@ -1,0 +1,35 @@
+.home {
+  margin-bottom: 5vh;
+}
+
+.jumbotron {
+  max-width: 70vw;
+}
+.aerial-intro {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.images-landscapes img {
+  width: 40vw;
+  border: 0.25vh;
+}
+
+.aerial-gallery {
+  margin-bottom: 5vh;
+}
+
+.info-sections {
+  flex-direction: column;
+}
+
+.info-section {
+  width: 70vw;
+  max-height: 100vh;
+  padding: 3vh;
+}
+
+#info-title {
+  width: 80vw;
+  text-align: center;
+}
