@@ -2,6 +2,7 @@ html,
 body {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  max-width: 100%;
 }
 
 /* Header */
@@ -126,7 +127,7 @@ nav a:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 5vh;
+  margin: 5vh auto;
 }
 
 .service {
@@ -135,8 +136,7 @@ nav a:active {
   padding: 3vw;
   background-color: #e6e6e6;
   margin: 0 2vw;
-  width: 20vw;
-  max-width: 30vw;
+  max-width: 25vw;
   justify-content: center;
   height: 70vh;
 }
@@ -175,7 +175,9 @@ nav a:active {
   justify-content: center;
   padding: 1vw;
   color: white;
-  height: 4vh;
+  min-height: 4vh;
+  align-items: center;
+  font-size: 2.5vh;
 }
 
 .service-button-background {
@@ -197,7 +199,7 @@ nav a:active {
 
 .portfolio-section {
   display: flex;
-  margin: 10vh auto;
+  margin: 0 auto 20vh auto;
   justify-content: center;
   align-items: center;
   height: 75vh;
@@ -206,6 +208,7 @@ nav a:active {
 
 .portfolio-title {
   margin: 5vh auto;
+  height: 5vh;
 }
 
 .portfolio-webs {
@@ -216,7 +219,7 @@ nav a:active {
 .portfolio-web {
   display: flex;
   flex-direction: column;
-  max-width: 30vw;
+  max-width: 40vw;
   text-align: center;
   position: relative;
   margin: auto 5vw;
@@ -232,7 +235,7 @@ nav a:active {
 .portfolio-content img {
   max-width: 40vw;
   max-height: 40vh;
-  margin: 3vh;
+  margin-bottom: 2vh;
 }
 
 .portfolio-title {
@@ -242,7 +245,7 @@ nav a:active {
 .portfolio-button {
   background-color: #282828;
   padding: 2vh;
-  width: 10vw;
+  width: 15vw;
   color: white;
 }
 
@@ -261,6 +264,10 @@ nav a:active {
 
 .portfolio-section-title {
   font-size: 5vh;
+}
+
+#portfolio {
+  height: 18vh;
 }
 /* Contact */
 
