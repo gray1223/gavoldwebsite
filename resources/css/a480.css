@@ -76,6 +76,10 @@
   height: 100vh;
 }
 
+.typeform-share-button a {
+  width: 90vw;
+}
+
 footer {
   font-size: 2vh;
 }

@@ -67,6 +67,12 @@
   width: 35vw;
 }
 
+.contact p {
+  width: 70vw;
+  margin: 0 auto;
+  text-align: left;
+}
+
 .contact-section h2 {
   font-size: 1.5vh;
 }
