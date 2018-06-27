@@ -1,0 +1,16 @@
+.home {
+  margin-bottom: 5vh;
+}
+
+.aerial-intro {
+  margin-bottom: 3vh;
+}
+
+.images-landscapes img {
+  border: 1vh solid #555555;
+}
+
+.info-section {
+  width: 40vw;
+  max-height: 100vh;
+}
