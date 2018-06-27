@@ -179,7 +179,6 @@ nav a:active {
 
 .service-button-background {
   background-color: #282828;
-  margin-top: 5vh;
 }
 
 .service-button-background:hover {
@@ -201,6 +200,11 @@ nav a:active {
   justify-content: center;
   align-items: center;
   height: 75vh;
+  flex-direction: column;
+}
+
+.portfolio-title {
+  margin: 5vh auto;
 }
 
 .portfolio-webs {

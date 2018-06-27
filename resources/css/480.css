@@ -53,9 +53,13 @@ header li {
   margin-bottom: 1vh;
 }
 
+.service-name {
+  padding: 2vh;
+}
+
 .service {
   width: 70vw;
-  height: 85vh;
+  height: 90vh;
   max-width: 80vw;
   margin: 2vh auto;
   padding: 4vw;
@@ -83,11 +87,22 @@ header li {
 
 /* Portfolio */
 
+
+#portfolio {
+  display: block;
+  height: 18vh;
+}
 .portfolio-section {
   flex-direction: column;
-  height: 100vh;
+  height: 125vh;
   justify-content: center;
   align-items: center;
+  margin-top: 25vh;
+  margin-bottom: 20vh;
+}
+
+.portfolio-title {
+  margin-top:8vh;
 }
 
 .portfolio-webs {
@@ -100,7 +115,8 @@ header li {
 
 .portfolio-web {
   max-width: 70vw;
-  margin: 10vh auto;
+  margin: 30vh auto;
+
 }
 
 .portfolio-content img {
