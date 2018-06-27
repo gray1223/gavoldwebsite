@@ -175,6 +175,7 @@ nav a:active {
   justify-content: center;
   padding: 1vw;
   color: white;
+  height: 4vh;
 }
 
 .service-button-background {
