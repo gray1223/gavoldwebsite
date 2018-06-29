@@ -5,3 +5,7 @@
 .images-landscapes img {
   border: 1vh solid #555555;
 }
+
+.info-section {
+  max-height: 110vh;
+}
