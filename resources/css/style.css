@@ -367,7 +367,7 @@ nav a:active {
 footer {
   width: 100%;
   display: flex;
-  border-top: 1vh solid black;
+  border-top: 0.3vh solid black;
   font-size: 2vh;
 }
 
