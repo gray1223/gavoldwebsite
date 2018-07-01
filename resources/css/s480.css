@@ -1,0 +1,33 @@
+.store-sections {
+  flex-direction: column;
+}
+
+.store-container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-listing {
+  width: 70vw;
+  justify-content: center;
+  height: 40vh;
+}
+
+.section-content {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav {
+  display: none;
+}
+
+#mobilenav {
+  display: flex;
+}
+
+header li {
+  font-size: 1.7vh;
+}

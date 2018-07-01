@@ -6,6 +6,18 @@
   height: 25vh;
 }
 
+#nav {
+  display: none;
+}
+
+#mobilenav {
+  display: flex;
+}
+
+header li {
+  font-size: 1.7vh;
+}
+
 .jumbotron {
   width: 80vw;
   max-width: 80vw;

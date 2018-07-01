@@ -1,0 +1,11 @@
+.section-listing {
+  height: 35vh;
+}
+
+.description {
+  height: 15vh;
+}
+
+#mobilenav {
+  display: none;
+}

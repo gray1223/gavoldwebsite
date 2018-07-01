@@ -1,0 +1,25 @@
+.store-sections {
+  flex-direction: column;
+}
+
+.store-container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-listing {
+  width: 65vw;
+  justify-content: center;
+  height: 35vh;
+}
+
+.section-content {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mobilenav {
+  display: none;
+}

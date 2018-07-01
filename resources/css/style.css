@@ -17,6 +17,9 @@ header {
   z-index: 1000;
 }
 
+#mobilenav {
+  display: none;
+}
 nav li {
   font-size: 2vh;
   margin: auto 3vw;

@@ -1,0 +1,35 @@
+.store-sections {
+  flex-direction: column;
+}
+
+.store-container {
+  justify-content: center;
+}
+
+.section-listing {
+  justify-content: center;
+  height: 50vh;
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mobilenav {
+  display: none;
+}
+
+.cost {
+  height: 4vh;
+}
+
+.section-listing-title {
+  font-size: 2.5vh;
+  height: 12vh;
+}
+
+.description {
+  height: 17vh;
+}
