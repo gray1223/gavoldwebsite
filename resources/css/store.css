@@ -134,29 +134,12 @@ nav a:active {
   font-size: 1.75vh;
 }
 
-.pay-button {
-  justify-content: center;
-  display: flex;
-  margin-top: 3vh;
-}
-
-.pay-button span {
+.snipcart-add-item {
   background-color: #282828;
-  padding: 1.5vh;
-  border-radius: 1vh;
-  border: 0.25vh solid #282828;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.pay-button a {
-  text-decoration: none;
   color: white;
-}
-
-.pay-button a:hover {
-  background-color: #e6e6e6;
+  padding: 1.25vh;
+  width: 10vw;
+  margin: 2vh;
 }
 
 

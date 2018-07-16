@@ -31,3 +31,7 @@
 header li {
   font-size: 1.7vh;
 }
+
+.snipcart-add-item {
+  width: 30vw;
+}
