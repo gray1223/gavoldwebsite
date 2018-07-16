@@ -39,6 +39,9 @@ nav a:active {
   color: #ce981f;
 }
 
+#mobilenav {
+  display: none;
+}
 
 
 /* Home Content */
