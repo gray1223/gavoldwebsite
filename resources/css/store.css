@@ -159,6 +159,20 @@ nav a:active {
     left: -33px;
 }
 
+.snipcart-overwrite .snipcart-checkout-container {
+    padding: 0;
+}
+
+.snipcart-overwrite #snipcart-main-container {
+    max-width: none;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .snipcart-overwrite #snipcart-overlay  {
+    background: #fff;
+}
+
 footer {
   width: 100%;
   display: flex;
