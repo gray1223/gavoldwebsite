@@ -178,10 +178,12 @@ footer {
   display: flex;
   border-top: 0.3vh solid black;
   font-size: 2vh;
+  margin-top: 5vh;
 }
 
 footer .leftnright {
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   display: flex;
   width: 100%;
 }
@@ -193,4 +195,8 @@ footer .leftnright {
 
 footer a:hover {
   color: #000000;
+}
+
+footer a {
+  text-decoration: none;
 }
