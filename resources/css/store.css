@@ -142,7 +142,22 @@ nav a:active {
   margin: 2vh;
 }
 
+.snipcart-overwrite #snipcart-main-container a#snipcart-close {
+    background: none;
+    text-indent: 0;
+    width: auto;
+    color: #50bcd0;
+    right: -13px;
+    display: block;
+    top: 6px;
+}
 
+.snipcart-overwrite #snipcart-close:after {
+    content: "Return to site \279C";
+    color: #fff;
+    position: relative;
+    left: -33px;
+}
 
 footer {
   width: 100%;
