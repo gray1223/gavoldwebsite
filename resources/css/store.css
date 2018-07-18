@@ -173,6 +173,10 @@ nav a:active {
     background: #fff;
 }
 
+.snipcart-overwrite #snipcart-footer #snipcart-powered {
+    display: none;
+}
+
 footer {
   width: 100%;
   display: flex;
