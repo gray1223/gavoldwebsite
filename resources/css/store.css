@@ -260,3 +260,35 @@ footer a:hover {
 footer a {
   text-decoration: none;
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .snipcart-summary {
+    width: 30vw;
+  }
+
+  .snipcart-summary a {
+    max-width: 25vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .snipcart-summary {
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    margin: 2vh auto;
+    width: 40vw;
+  }
+
+  .snipcart-option-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+
+  div .snipcart-summary a {
+    max-width: 40vw;
+  }
+}
