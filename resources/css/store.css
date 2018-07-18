@@ -169,12 +169,68 @@ nav a:active {
     overflow-x: hidden;
   }
 
-  .snipcart-overwrite #snipcart-overlay  {
+.snipcart-overwrite #snipcart-overlay  {
     background: #fff;
 }
 
 .snipcart-overwrite #snipcart-footer #snipcart-powered {
     display: none;
+}
+
+.snipcart-summary a {
+  text-decoration: none;
+  justify-content: center;
+  padding: 2vh 5vw;
+  background-color: #282828;
+  color: white;
+  max-width: 15vw;
+}
+
+.snipcart-summary {
+  justify-content: center;
+  width: 20vw;
+  text-align: center;
+  color: white;
+}
+
+.snipcart-price-box {
+  color: black;
+}
+
+.snipcart-option-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.snipcart-option-banner {
+  height: 10vh;
+}
+
+.snipcart-user-logout {
+  display: flex;
+  color: black;
+}
+
+.logout {
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 2.2vh;
+}
+
+div.store-container {
+  margin-top: 0;
+}
+
+.snipcart-add-item {
+  border: none;
+}
+
+div#snipcart-footer.snip-footer {
+  display: none;
 }
 
 footer {

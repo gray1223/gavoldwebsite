@@ -47,20 +47,26 @@
         </div>
       </div>
     </div>
-    <div class="snipcart-summary">
-    <a href="#" class="snipcart-user-email snipcart-user-profile">
-        Customer dashboard
-    </a>
-</div>
-<div>
-    Lots of content
-</div>
-<div class="snipcart-summary">
-    Number of items: <span class="snipcart-total-items"></span>
-    Total price: <span class="snipcart-total-price"></span>
-</div>
+
+
 
     <div class="store-container">
+
+      <div class="snipcart-option-banner">
+      <div class="snipcart-summary">
+        <a href="#" class="snipcart-user-email snipcart-user-profile">
+            My Orders
+          </a>
+      </div>
+
+      <div class="snipcart-summary snipcart-price-box">
+        Total price: <span class="snipcart-total-price"></span>
+      </div>
+      <div class="snipcart-summary">
+        <a href="#" class="snipcart-checkout">Cart</a>
+      </div>
+      </div>
+
       <div class="store-sections">
         <div class="store-section">
           <div class="store-section-aerial">
@@ -91,9 +97,9 @@
                     data-item-custom1-required="true"
                     data-item-custom2-name="Priority"
                     data-item-custom2-options="Low|Normal|High"
-                    data-item-custom2-value="Medium"
-                    data-item-custom3-name="Do you accept <a>These Terms</a>?"
-                    data-item-custom3-options="true|false">
+                    data-item-custom2-value="Normal"
+                    data-item-custom3-name="Do you accept our Terms and Conditions? (Type Yes)"
+                    >
                     Pay Now
                   </button>
                   </div>
@@ -122,9 +128,9 @@
                       data-item-custom1-required="true"
                       data-item-custom2-name="Priority"
                       data-item-custom2-options="Low|Normal|High"
-                      data-item-custom2-value="Medium"
-                      data-item-custom3-name="Do you accept <a>These Terms</a>?"
-                      data-item-custom3-options="true|false">
+                      data-item-custom2-value="Normal"
+                      data-item-custom3-name="Do you accept our Terms and Conditions? (Type Yes)"
+                      >
                       Pay Now
                     </button>
                   </div>
@@ -153,9 +159,9 @@
                       data-item-custom1-required="true"
                       data-item-custom2-name="Priority"
                       data-item-custom2-options="Low|Normal|High"
-                      data-item-custom2-value="Medium"
-                      data-item-custom3-name="Do you accept <a>These Terms</a>?"
-                      data-item-custom3-options="true|false">
+                      data-item-custom2-value="Normal"
+                      data-item-custom3-name="Do you accept our Terms and Conditions? (Type Yes)"
+                      >
                       Pay Now
                     </button>
                   </div>
@@ -194,9 +200,9 @@
                       data-item-custom1-required="true"
                       data-item-custom2-name="Priority"
                       data-item-custom2-options="Low|Normal|High"
-                      data-item-custom2-value="Medium"
-                      data-item-custom3-name="Do you accept <a>These Terms</a>?"
-                      data-item-custom3-options="true|false">
+                      data-item-custom2-value="Normal"
+                      data-item-custom3-name="Do you accept our Terms and Conditions? (Type Yes)"
+                      >
                       Pay Now
                     </button>
                   </div>
@@ -224,9 +230,9 @@
                       data-item-custom1-required="true"
                       data-item-custom2-name="Priority"
                       data-item-custom2-options="Low|Normal|High"
-                      data-item-custom2-value="Medium"
-                      data-item-custom3-name="Do you accept <a>These Terms</a>?"
-                      data-item-custom3-options="true|false">
+                      data-item-custom2-value="Normal"
+                      data-item-custom3-name="Do you accept our Terms and Conditions? (Type Yes)"
+                      >
                       Pay Now
                     </button>
                   </div>
@@ -254,9 +260,9 @@
                     data-item-custom1-required="true"
                     data-item-custom2-name="Priority"
                     data-item-custom2-options="Low|Normal|High"
-                    data-item-custom2-value="Medium"
-                    data-item-custom3-name="Do you accept <a>These Terms</a>?"
-                    data-item-custom3-options="true|false">
+                    data-item-custom2-value="Normal"
+                    data-item-custom3-name="Do you accept our Terms and Conditions? (Type Yes)"
+                    >
                     Pay Now
                   </button>
                   </div>
@@ -294,9 +300,9 @@
                       data-item-custom1-required="true"
                       data-item-custom2-name="Priority"
                       data-item-custom2-options="Low|Normal|High"
-                      data-item-custom2-value="Medium"
-                      data-item-custom3-name="Do you accept <a>These Terms</a>?"
-                      data-item-custom3-options="true|false">
+                      data-item-custom2-value="Normal"
+                      data-item-custom3-name="Do you accept our Terms and Conditions? (Type Yes)"
+                      data-item-custom3-required="true">
                       Pay Now
                     </button>
                   </div>
@@ -324,9 +330,10 @@
                       data-item-custom1-required="true"
                       data-item-custom2-name="Priority"
                       data-item-custom2-options="Low|Normal|High"
-                      data-item-custom2-value="Medium"
+                      data-item-custom2-value="Normal"
                       data-item-custom3-name="Do you accept our terms found at the bottom of the webpage?"
-                      data-item-custom3-options="true|false">
+
+                      data-item-custom3-required="true">
                       Pay Now
                     </button>
                   </div>
@@ -354,8 +361,9 @@
                       data-item-custom1-required="true"
                       data-item-custom2-name="Priority"
                       data-item-custom2-options="Low|Normal|High"
-                      data-item-custom2-value="Medium"
+                      data-item-custom2-value="Normal"
                       data-item-custom3-name="Do you accept These Terms? Type Yes to indicate."
+                      data-item-custom3-required="true">
                       Pay Now
                     </button>
                   </div>
@@ -365,6 +373,11 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="logout">
+      <a href="#" class="snipcart-user-logout">
+        <p>Logout</p>
+      </a>
     </div>
 
     <footer>
