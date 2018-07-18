@@ -35,3 +35,9 @@ header li {
 .snipcart-add-item {
   width: 30vw;
 }
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
