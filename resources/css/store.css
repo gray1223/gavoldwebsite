@@ -191,6 +191,7 @@ nav a:active {
   width: 20vw;
   text-align: center;
   color: white;
+  margin: auto 2vw;
 }
 
 .snipcart-price-box {
@@ -269,6 +270,9 @@ footer a {
   .snipcart-summary a {
     max-width: 25vw;
   }
+  .snipcart-price-box {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -278,6 +282,7 @@ footer a {
     max-width: 40vw;
     margin: 2vh auto;
     width: 40vw;
+    font-size: 1.5vh;
   }
 
   .snipcart-option-banner {
@@ -291,4 +296,5 @@ footer a {
   div .snipcart-summary a {
     max-width: 40vw;
   }
+
 }
