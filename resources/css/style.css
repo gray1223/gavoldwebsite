@@ -202,11 +202,11 @@ nav a:active {
 
 .portfolio-section {
   display: flex;
-  margin: 0 auto 20vh auto;
+  margin: 5vh auto 20vh auto;
   justify-content: center;
   align-items: center;
-  height: 75vh;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .portfolio-title {
@@ -217,6 +217,8 @@ nav a:active {
 .portfolio-webs {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .portfolio-web {
@@ -231,8 +233,12 @@ nav a:active {
   text-align: center;
 }
 
+.portfolio-web:last-child {
+  margin-top: 5vh;
+}
+
 .portfolio-content {
-  max-width: 40vw;
+  max-width: 35vw;
 }
 
 .portfolio-content img {
