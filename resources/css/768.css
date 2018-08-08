@@ -1,36 +1,27 @@
 .jumbotron {
-  max-width: 80vw;
-  max-height: 50vh;
+  width: 80vw;
 }
 
 #magazine-cite {
-  max-width: 60vw;
+  width: 60vw;
 }
+
 .services {
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.services-section {
-  height: 250vh;
-}
+
 
 .service {
-  max-width: 70vw;
-  height: 85vh;
+  width: 70vw;
   margin: 2vh auto;
   padding: 3vh;
 }
 
 .service-button {
   height: 5vh;
-}
-
-.portfolio-section {
-  height: 150vh;
-  margin-top: 60vh;
-
 }
 
 .portfolio-webs {
@@ -40,18 +31,16 @@
 }
 
 .portfolio-web {
-  height: 60vh;
-  max-width: 70vw;
+  width: 70vw;
   margin: 5vh auto;
 }
 
 .portfolio-content {
-  max-width: 70vw;
+  max-width: 75vw;
 }
 
 .portfolio-content img {
-  max-width: 70vw;
-  max-height: 70vh;
+  width: 75vw;
   margin: 2vh auto;
 }
 
@@ -75,4 +64,12 @@
 
 .contact-section h2 {
   font-size: 1.5vh;
+}
+
+form {
+  width: 50vw;
+}
+
+.form-title {
+  margin-bottom: 2vh;
 }
