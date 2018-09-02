@@ -8,7 +8,7 @@
 
 .section-listing {
   justify-content: center;
-  height: 50vh;
+  height: 65vh;
 }
 
 .section-content {
@@ -17,17 +17,14 @@
   align-items: center;
 }
 
-#mobilenav {
-  display: none;
-}
 
 .cost {
-  height: 4vh;
+  height: 6vh;
 }
 
 .section-listing-title {
   font-size: 2.5vh;
-  height: 12vh;
+  height: 20vh;
 }
 
 .description {

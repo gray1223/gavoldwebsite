@@ -1,14 +1,4 @@
-header li {
-  font-size: 1.7vh;
-}
 
-#nav {
-  display: none;
-}
-
-#mobilenav {
-  display: flex;
-}
 
 .pagetitle h1 {
   font-size: 3.5vh;

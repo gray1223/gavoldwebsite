@@ -1,48 +1,8 @@
 html,
 body {
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   max-width: 100%;
-}
-
-/* Header */
-header {
-  width: 100%;
-  background-color: #282828;
-  position: fixed;
-  display: flex;
-  height: 8vh;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-#mobilenav {
-  display: none;
-}
-
-nav li {
-  font-size: 2vh;
-  margin: auto 3vw;
-}
-
-nav {
-  display: flex;
-  list-style: none;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-}
-
-nav a:hover {
-  color: #7d7d7d;
-  transition: all 0.05s linear;
-}
-
-nav a:active {
-  color: #ce981f;
 }
 
 
@@ -108,9 +68,9 @@ nav a:active {
 }
 
 .section-listing {
-  width: 25vw;
+  width: 28vw;
   margin: 2vh 2vw;
-  height: 25vh;
+  height: 40vh;
   justify-content: center;
   text-align: center;
   background-color: #e6e6e6;
@@ -132,6 +92,11 @@ nav a:active {
 .description {
   line-height: 1.3;
   font-size: 1.75vh;
+  height: 12vh;
+}
+
+.pay-button {
+  margin-top: 2vh;
 }
 
 .snipcart-add-item {

@@ -1,51 +1,9 @@
 html,
 body {
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   max-width: 100%;
 }
-
-/* Header */
-header {
-  width: 100%;
-  background-color: #282828;
-  position: fixed;
-  display: flex;
-  height: 8vh;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-#mobilenav {
-  display: none;
-}
-
-nav li {
-  font-size: 2vh;
-  margin: auto 3vw;
-}
-
-nav {
-  display: flex;
-  list-style: none;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-}
-
-nav a:hover {
-  color: #7d7d7d;
-  transition: all 0.05s linear;
-}
-
-nav a:active {
-  color: #ce981f;
-}
-
-
 
 /* Home Content */
 
@@ -68,14 +26,13 @@ nav a:active {
 }
 
 .jumbotron {
-  background-color: rgba(40, 40, 40, 0.5);
+  background-color: rgba(40, 40, 40, 0.5) !important;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
   padding: 2vw;
   width: 60vw;
-
 }
 .home-content-container h1 {
   font-size: 9vh;
@@ -91,7 +48,7 @@ nav a:active {
 }
 
 #magazine-cite {
-  font-size: 3.5vh;
+  font-size: 2.5vh !important;
   color: #ce981f;
   background-color: rgba(40, 40, 40, 0.5);
   margin-top: 4vh;
@@ -139,7 +96,7 @@ nav a:active {
   padding: 3vw;
   background-color: #e6e6e6;
   margin: auto 2vw;
-  width: 20vw;
+  width: 25vw;
   justify-content: center;
 }
 

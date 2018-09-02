@@ -12,25 +12,39 @@
     <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1024px)" href="./resources/css/t1024.css" type="text/css" />
     <link rel="stylesheet" media="screen and (min-width: 1025px) and (max-width: 1440px)" href="./resources/css/t1440.css" type="text/css" />
     <title>Terms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="./resources/css/global.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-        <nav id="nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#services-section">Services</a></li>
-          <li><a href="store.html">Store</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="aerial.html">Aerial</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </nav>
-
-        <nav id="mobilenav">
-          <li><a href="#">Home</a></li>
-          <li><a href="store.html">Store</a></li>
-          <li><a href="aerial.html">Aerial</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Gray AerialVisual LLC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aerial.html">Aerial</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="index.html#portfolio">Portfolio</a>
+              <a class="dropdown-item" href="index.html#">Contact</a>
+              <a class="dropdown-item" href="#">Terms and Conditions</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div class="container">
 
@@ -151,5 +165,11 @@
           </div>
         </div>
       </footer>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
   </body>
 </html>

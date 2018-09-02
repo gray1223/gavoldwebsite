@@ -1,11 +1,11 @@
 .section-listing {
-  height: 35vh;
+  height: 50vh;
 }
 
 .description {
   height: 15vh;
 }
 
-#mobilenav {
-  display: none;
+.section-listing-title {
+  height: 10vh;
 }

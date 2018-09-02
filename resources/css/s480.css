@@ -10,7 +10,7 @@
 .section-listing {
   width: 70vw;
   justify-content: center;
-  height: 40vh;
+  height: 60vh;
 }
 
 .section-content {
@@ -20,17 +20,6 @@
   align-items: center;
 }
 
-#nav {
-  display: none;
-}
-
-#mobilenav {
-  display: flex;
-}
-
-header li {
-  font-size: 1.7vh;
-}
 
 .snipcart-add-item {
   width: 30vw;
