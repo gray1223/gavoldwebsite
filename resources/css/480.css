@@ -1,5 +1,5 @@
 
-.jumbotron {
+.jumbotrons {
   font-size: 4vh;
   width: 80vw;
   max-width: 91vw;
@@ -58,10 +58,10 @@
 }
 
 .service {
-  width: 70vw;
+  width: 85vw;
   height: 90vh;
   margin: 2vh auto;
-  padding: 4vw;
+  padding: 3vw;
 }
 
 .services-section {

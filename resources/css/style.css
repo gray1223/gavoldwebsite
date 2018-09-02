@@ -25,14 +25,14 @@ body {
   margin-top: 10vh;
 }
 
-.jumbotron {
+.jumbotrons {
   background-color: rgba(40, 40, 40, 0.5) !important;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
   padding: 2vw;
-  width: 60vw;
+  width: 60vw !important;
 }
 .home-content-container h1 {
   font-size: 9vh;
