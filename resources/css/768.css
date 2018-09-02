@@ -4,6 +4,11 @@
 
 #magazine-cite {
   width: 60vw;
+  font-size: 2vh;
+}
+
+#magazine-cite h3 {
+  font-size: 2.5vh;
 }
 
 .services {
@@ -24,32 +29,12 @@
   height: 5vh;
 }
 
-.portfolio-webs {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.portfolio-section-title {
+  text-align: center;
 }
 
-.portfolio-web {
-  width: 70vw;
-  margin: 5vh auto;
-}
-
-.portfolio-content {
-  max-width: 75vw;
-}
-
-.portfolio-content img {
-  width: 75vw;
-  margin: 2vh auto;
-}
-
-.portfolio-button {
-  width: 40vw;
-}
-
-#portfolio {
-  height: 20vh;
+.carosel {
+  width: 100vw;
 }
 
 .contact-section {

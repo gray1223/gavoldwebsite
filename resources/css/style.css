@@ -155,18 +155,25 @@ body {
 
 /* Portfolio */
 
-.portfolio-section {
+.portfolio-section-title {
+  margin-bottom: 5vh;
+  text-align: center;
   display: flex;
-  margin: 5vh auto 20vh auto;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
-.portfolio-title {
-  margin: 5vh auto;
-  height: 5vh;
+.portfolio-section {
+  margin: 0 auto;
+}
+
+.carosel {
+  width: 80vw;
+  margin: auto;
+}
+
+.caption {
+  padding: 2vh;
+  background-color: black !important;
 }
 
 .portfolio-webs {

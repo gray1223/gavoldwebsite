@@ -15,11 +15,14 @@
 }
 
 #magazine-cite {
-  font-size: 2.5vh;
   width: 70vw;
   max-width: 70vw;
   font-weight: 600;
   line-height: 1.2;
+}
+
+#magazine-cite h3 {
+  font-size: 2vh;
 }
 
 .home {
@@ -80,41 +83,16 @@
 /* Portfolio */
 
 
-#portfolio {
-  display: block;
-  height: 18vh;
+.carosel {
+  width: 100vw;
 }
+
 .portfolio-section {
-  flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15vh;
-  margin-bottom: 5vh;
+  display: block;
 }
-
-.portfolio-title {
-  margin-top:8vh;
-}
-
-.portfolio-webs {
-  flex-direction: column;
-}
-
-.portfolio-web {
-  width: 70vw;
-  margin: auto;
-
-}
-
-.portfolio-content img {
-  width: 70vw;
-  margin: 5vh auto;
-}
-
-.portfolio-button {
-  width: 50vw;
-}
-
 /* Contact */
 
 .contact-section h1 {
