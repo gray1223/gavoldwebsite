@@ -74,3 +74,52 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.explain {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  align-items: center;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.explain h1 {
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+footer {
+  width: 100%;
+  display: flex;
+  border-top: 0.3vh solid black;
+  font-size: 2vh;
+  margin-top: 5vh;
+}
+
+footer .leftnright {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.left,
+.right {
+  margin: 2vh 2vw;
+}
+
+footer a:hover {
+  color: #000000;
+}
+
+footer a {
+  text-decoration: none;
+}
