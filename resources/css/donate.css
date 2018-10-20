@@ -1,0 +1,76 @@
+.landing {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../resources/images/hurc.jpg");
+  margin-top: 6vh;
+  height: 50vh;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top {
+  display: flex;
+}
+
+.bigtron {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  align-items: center;
+  padding: 2vh;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.section-listing {
+  width: 28vw;
+  margin: 2vh 2vw;
+  height: 40vh;
+  justify-content: center;
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 4vh;
+}
+
+.section-listing-title {
+  font-size: 3vh;
+  line-height: 2;
+  font-weight: 600;
+}
+
+.cost {
+  font-size: 2vh;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.description {
+  line-height: 1.3;
+  font-size: 1.75vh;
+  height: 12vh;
+}
+
+.pay-button button {
+  margin-top: 2vh;
+  background-color: #0047ba;
+  color: white;
+  border: none;
+  padding: 1.5vh 3vw;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.section-listings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
