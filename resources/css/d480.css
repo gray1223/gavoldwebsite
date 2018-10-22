@@ -1,0 +1,37 @@
+.landing {
+  height: 100vh;
+  margin: 0;
+}
+
+.landing h1 {
+  font-size: 5vh;
+}
+
+.landing h2 {
+  font-size: 4vh;
+}
+
+.para {
+  width: 80vw;
+}
+
+.logos img {
+  width: 70vw;
+}
+
+.section-listings {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-listing {
+  width: 75vw;
+  height: 60vh;
+}
+
+.section-listing p,
+.section-listing h2 {
+  font-size: 2.5vh;
+}
