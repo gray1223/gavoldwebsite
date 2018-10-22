@@ -49,14 +49,26 @@ body {
 
 #magazine-cite {
   font-size: 2.5vh !important;
-  color: #ce981f;
+  color: white;
   background-color: rgba(40, 40, 40, 0.5);
   margin-top: 4vh;
   padding: 1vh 1vw;
-  width: 30vw;
+  width: 25vw;
   display: flex;
   justify-content: center;
   border-radius: 1vh;
+  text-align: center;
+}
+
+#magazine-cite a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#magazine-cite:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
 }
 
 /* Services */
