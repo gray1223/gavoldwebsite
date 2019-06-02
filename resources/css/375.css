@@ -1,7 +1,7 @@
 
 .jumbotrons {
   font-size: 4vh;
-  width: 80vw;
+  width: 90vw !important;
   max-width: 91vw;
 }
 
@@ -14,9 +14,13 @@
   font-weight: 400;
 }
 
+a.navbar-brand {
+  font-size: 2.3vh !important;
+  padding-right: 5vw;
+}
+
 #magazine-cite {
-  width: 70vw;
-  max-width: 70vw;
+  width: 80vw;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -36,12 +40,11 @@
   justify-content: center;
   margin: 3vh auto;
 }
-.services-content {
-  padding-top: 4vh;
-}
+
 .service h2 {
   font-size: 4vh;
   padding-top: 0vh;
+  height: 3vh;
 }
 
 .service p {
@@ -59,9 +62,10 @@
 
 .service {
   width: 85vw;
-  height: 90vh;
+  height: 75vh;
   margin: 2vh auto;
   padding: 3vw;
+  display: block;
 }
 
 .services-section {
