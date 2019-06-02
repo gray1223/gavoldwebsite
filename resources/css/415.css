@@ -1,8 +1,132 @@
+
+.jumbotrons {
+  font-size: 4vh;
+  width: 80vw;
+  max-width: 91vw;
+}
+
+.home-content-container h1 {
+  font-size: 4vh;
+}
+
+.home-content-container h2 {
+  font-size: 3vh;
+  font-weight: 400;
+}
+
+#magazine-cite {
+  width: 70vw;
+  max-width: 70vw;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+#magazine-cite h3 {
+  font-size: 2vh;
+}
+
+.home {
+  width: 100%;
+}
+
+/* Services */
+
+.services {
+  flex-direction: column;
+  justify-content: center;
+  margin: 3vh auto;
+}
+.services-content {
+  padding-top: 4vh;
+}
 .service h2 {
   font-size: 4vh;
   padding-top: 0vh;
 }
 
 .service p {
+  font-size: 3vh;
   margin-bottom: 0vh;
 }
+
+.service-price {
+  margin-bottom: 1vh;
+}
+
+.service-name {
+  padding: 2vh;
+}
+
+.service {
+  width: 85vw;
+  height: 90vh;
+  margin: 2vh auto;
+  padding: 3vw;
+}
+
+.services-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.service-button-background {
+  padding: 2.5vh;
+}
+
+.service-button {
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+  display: flex;
+}
+
+/* Portfolio */
+
+
+.carosel {
+  width: 100vw;
+}
+
+.portfolio-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+/* Contact */
+
+.contact-section h1 {
+  font-size: 3vh;
+}
+
+.contact-section h2 {
+  font-size: 2vh;
+}
+
+.contact-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section {
+  width: 60vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.mailto {
+  width: 60vw;
+  font-size: 3vh;
+  margin-top: 2vh;
+}
+
+form {
+  width: 70vw;
+}
+
+.form-title {
+  margin-bottom: 2vh;
+}
+
+/* Footer */
