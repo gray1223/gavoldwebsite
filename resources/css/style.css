@@ -171,13 +171,13 @@ body {
   margin: auto;
 }
 
-.carosel .carousel-indicators li {
-  min-width: 5vw;
-}
-
 .caption {
   padding: 2vh;
   background-color: black !important;
+}
+
+#carouselExampleIndicators li {
+  min-width: 5vw;
 }
 
 .portfolio-webs {
@@ -284,7 +284,7 @@ body {
   margin: 3vw;
   background-color: white;
   padding: 3vh;
-  width: 20vw;
+  width: 30vw;
 }
 
 .contact-section h1 {
