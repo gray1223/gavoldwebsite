@@ -8,7 +8,7 @@ body {
 /* Home Content */
 
 .home {
-  background-image: url("../../resources/images/junebeachside.jpg");
+  background-image: url("../../resources/images/green.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,6 +55,7 @@ body {
   padding: 1vh 1vw;
   display: flex;
   border-radius: 1vh;
+  text-align: center;
 }
 
 
@@ -168,6 +169,10 @@ body {
 .carosel {
   width: 60vw;
   margin: auto;
+}
+
+.carosel .carousel-indicators li {
+  min-width: 5vw;
 }
 
 .caption {

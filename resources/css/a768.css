@@ -3,7 +3,7 @@
 }
 
 .jumbotrons {
-  max-width: 70vw;
+  width: 70vw;
 }
 .aerial-intro {
   margin-bottom: 5vh;
@@ -32,4 +32,9 @@
 #info-title {
   width: 80vw;
   text-align: center;
+}
+
+.videos iframe {
+  width: 40vw;
+  height: 18vh;
 }

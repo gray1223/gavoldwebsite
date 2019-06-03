@@ -109,7 +109,7 @@
 }
 
 .contact-section {
-  width: 60vw;
+  width: 80vw;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -122,7 +122,7 @@
 }
 
 form {
-  width: 70vw;
+  width: 80vw;
 }
 
 .form-title {

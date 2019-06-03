@@ -153,22 +153,25 @@ a {
 /* Videos */
 
 .video-gallery {
-  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .videos {
-  display: row;
+  flex-direction: row;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.videos video {
-  width: 40vw;
+.videos iframe {
   justify-content: center;
   align-items: center;
+  margin: 2vh;
+  width: 25vw;
+  height: 28vh;
 }
 
 /* Footer */
