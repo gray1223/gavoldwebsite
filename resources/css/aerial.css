@@ -8,20 +8,15 @@ body {
 .home {
   height: 50vh;
   padding-top: 5vh;
-  background-image: url("../images/DJI_0507.jpeg");
+  background-image: url("../images/gav4.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-}
-
-.home-content-container  {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-  margin-top: 9vh;
 }
+
 
 .jumbotrons {
   background-color: rgba(40, 40, 40, 0.6) !important;
@@ -30,25 +25,39 @@ body {
   overflow: hidden;
   padding: 1vw;
   width: 30vw;
-
+  color: white;
+  margin-top: 7vh;
+  text-align: center;
+  border: 0.7vh white solid;
 }
+
+.jumbotrons h1 {
+  font-size: 6vh;
+}
+
+.jumbotrons h2 {
+  font-size: 4vh;
+}
+
 .home-content-container h1 {
   font-size: 6vh;
   font-weight: 700;
   line-height: 1.4;
 }
 
-.aerial-intro {
+/* quals */
+
+.quals {
+  height: 10vh;
+  background-color: #282828;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 3vh;
+.quals h1 {
+  color: white;
+  font-size: 5vh;
 }
 
 /* Aerial Information */
@@ -157,6 +166,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-top: 5vh;
 }
 
 .videos {
@@ -173,6 +184,44 @@ a {
   margin: 2vh;
   width: 25vw;
   height: 28vh;
+}
+
+/* Prices */
+
+.pricing {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #282828;
+  padding: 3vh;
+  color: white;
+}
+
+.pricing-title {
+  margin-bottom: 3vh;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.5vh white solid;
+}
+
+.group:hover {
+  color: #282828;
+  background-color: white;
+}
+
+.group div {
+  width: 30vw;
+  padding: 2vh;
 }
 
 /* Footer */

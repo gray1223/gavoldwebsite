@@ -81,6 +81,59 @@ body {
 
 }
 
-.images {
-  border-bottom: 0.7vh #282828 solid;
+/* Services */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5vh;
+  background-color: #282828;
+  color: white;
+  width: 100vw;
+  padding: 2vh;
+}
+
+.services-title {
+  font-size: 6vh;
+}
+
+.groups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.group img {
+  display: flex;
+  flex-direction: row;
+  width: 28vw;
+  flex-wrap: wrap;
+  margin: 2vh;
+  border: 0.5vh solid
+}
+
+
+
+footer {
+  width: 100%;
+  display: flex;
+  border-top: 1vh solid black;
+  font-size: 2vh;
+}
+
+footer .leftnright {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.left,
+.right {
+  margin: 2vh 2vw;
+}
+
+footer a:hover {
+  color: #000000;
 }
