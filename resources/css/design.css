@@ -1,0 +1,86 @@
+html,
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+
+.landing {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  background-image: url("../images/design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.jumbo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  margin-top: 18vh;
+  height: 20vh;
+  padding: 5vw;
+  color: white;
+  border: 1vh white solid;
+}
+
+.jumbo h1 {
+  font-size: 6vh;
+  line-height: 1.5;
+}
+
+.jumbo h2 {
+  font-size: 3.5vh;
+}
+
+/* portfolio */
+
+.portfolio-title {
+  font-size: 6vh;
+  text-align: center;
+  margin-top: 5vh;
+  border-bottom: 1vh black solid;
+}
+
+.logos {
+  font-size: 5vh;
+}
+
+.shirts {
+  font-size: 5vh;
+  margin-top: 4vh;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  margin-top: 3vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 98vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  display: flex;
+  width: 20vw;
+  margin: 2vh;
+
+}
+
+.images {
+  border-bottom: 0.7vh #282828 solid;
+}

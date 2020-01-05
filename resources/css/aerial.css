@@ -6,9 +6,12 @@ body {
 /* Home Content */
 
 .home {
-  height: 30vh;
+  height: 50vh;
   padding-top: 5vh;
-  max-height: 42vh;
+  background-image: url("../images/DJI_0507.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .home-content-container  {
@@ -21,11 +24,9 @@ body {
 }
 
 .jumbotrons {
-  background-color: rgba(40, 40, 40, 0.95) !important;
+  background-color: rgba(40, 40, 40, 0.6) !important;
   display: flex;
   flex-direction: column;
-  border: 0.5vh solid black;
-  border-radius: 3vh;
   overflow: hidden;
   padding: 1vw;
   width: 30vw;
