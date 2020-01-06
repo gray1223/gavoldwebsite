@@ -1,5 +1,13 @@
 .jumbotrons {
-  width: 80vw;
+  width: 85vw;
+}
+
+.jumbotrons h1 {
+  font-size: 7vh;
+}
+
+.jumbotrons h2 {
+  font-size: 4vh;
 }
 
 #magazine-cite {
