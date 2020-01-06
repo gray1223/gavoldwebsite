@@ -1,10 +1,19 @@
 .home {
-  margin-bottom: 5vh;
+  margin-bottom: 0vh;
 }
 
 .jumbotrons {
   width: 70vw;
 }
+
+.quals {
+  margin-bottom: 4vh;
+}
+
+.group {
+  overflow: hidden;
+}
+
 .aerial-intro {
   margin-bottom: 5vh;
   text-align: center;

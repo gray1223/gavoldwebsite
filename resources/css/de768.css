@@ -1,0 +1,11 @@
+.image img {
+  width: 40vw;
+}
+
+.groups {
+  flex-direction: column;
+}
+
+.group img {
+  width: 80vw;
+}

@@ -1,24 +1,24 @@
 .home {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 25vh;
+  height: 50vh;
+  margin-bottom: 0vh;
 }
 
+.quals {
+  height: 17vh;
+  font-size: 4vh;
+  margin-bottom: 4vh;
+}
 
 .jumbotrons {
-  width: 80vw;
-  max-width: 80vw;
+  width: 85vw;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.home-content-container  h1 {
-  width: 80vw;
-  font-size: 5vh;
 }
 
 .aerial-intro {
@@ -79,6 +79,21 @@
 
 .typeform-share-button a {
   width: 90vw;
+}
+
+.group {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group div {
+  width: 85vw;
+}
+
+.groups {
+  width: 100vw;
 }
 
 footer {

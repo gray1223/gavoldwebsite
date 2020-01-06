@@ -11,19 +11,22 @@ a.navbar-brand {
 
 }
 
+.home {
+  width: 100vw;
+  height: 50vh;
+}
 
 .jumbotrons {
   width: 80vw;
-  max-width: 80vw;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
+  font-size: 4vh;
+  height: 50vh;
 }
 
-.home-content-container  h1 {
-  width: 80vw;
-  font-size: 5vh;
+.quals {
+  height: 30vh;
 }
 
 .aerial-intro {
