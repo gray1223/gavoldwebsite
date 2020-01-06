@@ -1,27 +1,51 @@
 .home {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  height: 25vh;
+  height: 50vh;
+  background-position: center;
 }
 
-.navbar-brand {
-  font-size: 2.3vh !important;
+nav {
+  width: 100vw;
+}
+
+.group {
+  flex-direction: column;
+}
+
+.group div {
+  width: 80vw;
+}
+
+.h1-title h1 {
+  font-size: 4vh;
+}
+
+.includes h2 {
+  font-size: 3vh;
+}
+
+.price h1 {
+  font-size: 4vh;
 }
 
 .jumbotrons {
   width: 80vw;
-  max-width: 80vw;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
+  font-size: 4vh;
 }
 
-.home-content-container  h1 {
-  width: 80vw;
-  font-size: 5vh;
+.jumbotrons h1 {
+  font-size: 4vh;
+}
+
+.jumbotrons h2 {
+  font-size: 3vh;
+}
+
+.quals {
+  height: 20vh;
+  margin-bottom: 5vh;
 }
 
 .aerial-intro {

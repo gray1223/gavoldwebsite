@@ -1,24 +1,27 @@
 .home {
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  text-align: center;
   height: 50vh;
-  margin-bottom: 0vh;
-}
-
-.quals {
-  height: 17vh;
-  font-size: 4vh;
-  margin-bottom: 4vh;
 }
 
 .jumbotrons {
-  width: 85vw;
+  width: 80vw;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
+  font-size: 4vh;
+}
+
+.jumbotrons h1 {
+  font-size: 4vh;
+}
+
+.jumbotrons h2 {
+  font-size: 3vh;
+}
+
+.quals {
+  height: 20vh;
+  margin-bottom: 5vh;
 }
 
 .aerial-intro {
@@ -45,13 +48,6 @@
 
 .info-sections {
   flex-direction: column;
-}
-
-#info-title {
-  width: 80vw;
-  font-weight: 500;
-  margin-top: 5vh;
-  font-size: 5vh;
 }
 
 .info-section {
@@ -83,19 +79,23 @@
 
 .group {
   flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .group div {
-  width: 85vw;
+  width: 80vw;
 }
 
-.groups {
-  width: 100vw;
+.h1-title h1 {
+  font-size: 4vh;
 }
 
+.includes h2 {
+  font-size: 3vh;
+}
+
+.price h1 {
+  font-size: 4vh;
+}
 footer {
   font-size: 2vh;
 }

@@ -1,17 +1,4 @@
 .home {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  height: 25vh;
-}
-
-a.navbar-brand {
-  font-size: 2.3vh !important;
-
-}
-
-.home {
   width: 100vw;
   height: 50vh;
 }
@@ -22,17 +9,19 @@ a.navbar-brand {
   justify-content: center;
   text-align: center;
   font-size: 4vh;
-  height: 50vh;
+}
+
+.jumbotrons h1 {
+  font-size: 4vh;
+}
+
+.jumbotrons h2 {
+  font-size: 3vh;
 }
 
 .quals {
-  height: 30vh;
-}
-
-.aerial-intro {
-  text-align: center;
-  margin-top: 7vh;
-  margin-bottom: 3vh;
+  height: 20vh;
+  margin-bottom: 5vh;
 }
 
 .images-landscapes {
@@ -88,6 +77,26 @@ a.navbar-brand {
 
 .typeform-share-button a {
   width: 90vw;
+}
+
+.group {
+  flex-direction: column;
+}
+
+.group div {
+  width: 80vw;
+}
+
+.h1-title h1 {
+  font-size: 4vh;
+}
+
+.includes h2 {
+  font-size: 3vh;
+}
+
+.price h1 {
+  font-size: 4vh;
 }
 
 footer {

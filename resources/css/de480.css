@@ -1,6 +1,5 @@
 .image img {
   width: 40vw;
-
 }
 
 .groups {
@@ -14,3 +13,16 @@
 h1.services {
   font-size: 3vh;
 }
+
+.jumbo {
+  width: 95vw;
+  font-size: 3vh;
+  padding: 2vh;
+}
+
+.jumbo h1 {
+  font-size: 4vh;
+}
+
+.jumbo h2 {
+  font-size: 3vh;
