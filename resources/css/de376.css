@@ -1,6 +1,19 @@
 .image img {
   width: 40vw;
+}
 
+.jumbo {
+  width: 95vw;
+  font-size: 3vh;
+  padding: 2vh;
+}
+
+.jumbo h1 {
+  font-size: 4vh;
+}
+
+.jumbo h2 {
+  font-size: 3vh;
 }
 
 .groups {
