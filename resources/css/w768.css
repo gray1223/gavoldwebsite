@@ -1,0 +1,40 @@
+.jumbotrons {
+  width: 90vw;
+}
+
+.split {
+  flex-direction: column;
+}
+
+.pane {
+  width: 100vw;
+}
+
+.pane .service {
+  width: 90vw;
+}
+
+.justify {
+  flex-direction: column;
+  width: 90vw;
+}
+
+.justify .feature-part {
+  width: 100%;
+}
+.testimonials {
+  flex-direction: column;
+}
+
+.testimonial {
+  width: 80vw;
+}
+
+.testimonial img {
+  width: 25vw;
+  margin-bottom: 2vh;
+}
+
+.testimonial p {
+  height: auto;
+}

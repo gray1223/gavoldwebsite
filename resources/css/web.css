@@ -1,0 +1,193 @@
+html,
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+ul.features {
+  list-style-type: square;
+}
+
+ul.service {
+  list-style-type: none;
+}
+/* Home Content */
+
+.home {
+  height: 50vh;
+  padding-top: 5vh;
+  background-image: url("../images/webdesign.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.jumbotrons {
+  background-color: rgba(40, 40, 40, 0.6) !important;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 1vw;
+  width: 30vw;
+  color: white;
+  margin-top: 7vh;
+  text-align: center;
+  border: 0.7vh white solid;
+}
+
+.jumbotrons h1 {
+  font-size: 6vh;
+}
+
+.jumbotrons h2 {
+  font-size: 4vh;
+}
+
+.home-content-container h1 {
+  font-size: 6vh;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* Split */
+
+.split {
+  display: flex;
+  flex-direction: row;
+}
+
+.pane {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  text-align: center;
+  align-items: center;
+    padding-top: 4vh;
+}
+
+.pane .service {
+  width: 45vw;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+#pane1 {
+  background-color: #282828;
+  color: white;
+}
+
+.justify {
+  text-align: left;
+  display: flex;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  flex-direction: row;
+  padding: 2vh;
+}
+
+.justify .feature-icon {
+  width: 5vw;
+  height: 5vw;
+  margin: 2vh;
+}
+
+.justify .feature-part {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-feature-part {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.justify.dark {
+
+}
+
+
+
+/* Testimonials */
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.google {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-test {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+.testimonial p {
+  height: 28vh;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: 5vh;
+}
+
+.testimonial img {
+  width: 8vw;
+}
+
+.contactus {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
+}
+
+
+/* Footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  border-top: 0.3vh solid black;
+  font-size: 2vh;
+  margin-top: 5vh;
+}
+
+footer .leftnright {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.left,
+.right {
+  margin: 2vh 2vw;
+}
+
+footer a:hover {
+  color: #000000;
+}
+
+footer a {
+  text-decoration: none;
+}
