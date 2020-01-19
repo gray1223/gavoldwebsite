@@ -1,0 +1,19 @@
+.jumbotrons {
+  width: 90vw;
+}
+
+.blocks {
+  flex-direction: column;
+}
+
+img {
+  width: 80vw;
+}
+
+.block {
+  width: 90vw;
+}
+
+.person div {
+  margin-top: 3vh;
+}

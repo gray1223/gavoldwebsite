@@ -1,0 +1,121 @@
+html,
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+ul.features {
+  list-style-type: square;
+}
+
+ul.service {
+  list-style-type: none;
+}
+/* Home Content */
+
+.home {
+  height: 50vh;
+  padding-top: 5vh;
+  background-image: url("../images/GAV.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.jumbotrons {
+  background-color: rgba(40, 40, 40, 0.6) !important;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 1vw;
+  width: 30vw;
+  color: white;
+  margin-top: 7vh;
+  text-align: center;
+  border: 0.7vh white solid;
+}
+
+.jumbotrons h1 {
+  font-size: 6vh;
+}
+
+.jumbotrons h2 {
+  font-size: 4vh;
+}
+
+.home-content-container h1 {
+  font-size: 6vh;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* The Team */
+
+.people {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.person {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+img {
+  width: 30vw;
+
+  border-radius: 50%;
+}
+
+.block {
+  width: 45vw;
+}
+
+.person {
+  margin-bottom: 8vh;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  border-top: 0.3vh solid black;
+  font-size: 2vh;
+  margin-top: 5vh;
+}
+
+footer .leftnright {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.left,
+.right {
+  margin: 2vh 2vw;
+}
+
+footer a:hover {
+  color: #000000;
+}
+
+footer a {
+  text-decoration: none;
+}
