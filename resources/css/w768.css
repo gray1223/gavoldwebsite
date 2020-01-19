@@ -19,6 +19,16 @@
   width: 90vw;
 }
 
+.justify .feature-icon {
+  width: 15vw;
+  height: 15vw;
+  margin: 2vh;
+}
+
+.justify p {
+  font-size: 2vh;
+}
+
 .justify .feature-part {
   width: 100%;
 }
