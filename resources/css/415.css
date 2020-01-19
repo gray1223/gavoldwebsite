@@ -2,11 +2,23 @@ nav img {
   display: none;
 }
 
+
+.home {
+  height: 100vh;
+}
+
+.jumbotrons h1 {
+  font-size: 4vh;
+}
+
+.jumbotrons h2 {
+  font-size: 2.8vh;
+}
+
 .services {
   display: flex;
   flex-direction: column;
   height: auto;
-
 }
 
 .services a {

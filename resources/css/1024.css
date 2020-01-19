@@ -1,3 +1,7 @@
+nav img {
+  display: none;
+}
+
 .service {
   font-size: 2vh;
 }

@@ -3,6 +3,17 @@ nav img {
 }
 
 
+.home {
+  height: 100vh;
+}
+
+.jumbotrons h1 {
+  font-size: 4vh;
+}
+
+.jumbotrons h2 {
+  font-size: 2.8vh;
+}
 
 /* Services */
 
