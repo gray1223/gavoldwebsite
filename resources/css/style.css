@@ -153,6 +153,9 @@ body {
   color: inherit;
 }
 
+.widget {
+  height: 50vh;
+}
 /* Portfolio */
 
 .portfolio-section-title {
