@@ -1,32 +1,8 @@
-
-.jumbotrons {
-  font-size: 4vh;
-  width: 90vw;
+nav img {
+  display: none;
 }
 
-.home-content-container h1 {
-  font-size: 4vh;
-}
 
-.home-content-container h2 {
-  font-size: 3vh;
-  font-weight: 400;
-}
-
-#magazine-cite {
-  width: 70vw;
-  max-width: 70vw;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-#magazine-cite h3 {
-  font-size: 2vh;
-}
-
-.home {
-  width: 100%;
-}
 
 /* Services */
 

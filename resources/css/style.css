@@ -10,7 +10,7 @@ body {
 
 .home {
   height: 100vh;
-  background-image: url("../images/aprilrivernorth.jpg");
+  background-image: url("../images/daytona.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,12 +22,16 @@ body {
 }
 
 .jumbotrons {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.7);
   padding: 3vh;
 }
 
 .jumbotrons h1 {
   font-size: 8vh;
+}
+
+.jumbotrons h2 {
+  font-size: 3.5vh;
 }
 /* Services */
 /*
