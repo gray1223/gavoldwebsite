@@ -60,7 +60,7 @@ body {
 
 
 /* Services */
-
+/*
 .services-section {
   background-color: white;
   width: 100%;
@@ -156,6 +156,63 @@ body {
 .widget {
   height: 50vh;
 }
+
+*/
+
+.services {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  text-align: center;
+}
+
+.services a {
+  width: 33.334%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.services a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.background-layer {
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-layer:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.service-one {
+  background-image: url("../images/aprilrivernorth.jpg");
+}
+
+.service-two {
+  background-image: url("../images/webdesign.png");
+}
+
+.service-three {
+  background-image: url("../images/editing.jpeg");
+}
+
 /* Portfolio */
 
 .portfolio-section-title {

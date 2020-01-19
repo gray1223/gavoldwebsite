@@ -31,52 +31,18 @@
 /* Services */
 
 .services {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 3vh auto;
-}
-.services-content {
-  padding-top: 4vh;
-}
-.service h2 {
-  font-size: 4vh;
-  padding-top: 2vh;
+  height: auto;
+
 }
 
-.service p {
-  font-size: 3vh;
-  margin-bottom: 3vh;
-}
-
-.service-price {
-  margin-bottom: 1vh;
-}
-
-.service-name {
-  padding: 2vh;
+.services a {
+  width: 100%;
 }
 
 .service {
-  width: 85vw;
-  height: 90vh;
-  margin: 2vh auto;
-  padding: 3vw;
-}
-
-.services-section {
   width: 100%;
-  margin: 0 auto;
-}
-
-.service-button-background {
-  padding: 2.5vh;
-}
-
-.service-button {
-  justify-content: center;
-  align-items: center;
-  font-size: 3vh;
-  display: flex;
 }
 
 /* Portfolio */

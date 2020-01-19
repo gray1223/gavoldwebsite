@@ -34,54 +34,19 @@ a.navbar-brand {
 }
 
 /* Services */
-
 .services {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 3vh auto;
+  height: auto;
+
 }
 
-.service h2 {
-  font-size: 4vh;
-  padding-top: 0vh;
-  height: 3vh;
-}
-
-.service p {
-  font-size: 3vh;
-  margin-bottom: 0vh;
-}
-
-.service-price {
-  margin-bottom: 1vh;
-}
-
-.service-name {
-  padding: 2vh;
+.services a {
+  width: 100%;
 }
 
 .service {
-  width: 85vw;
-  height: 75vh;
-  margin: 2vh auto;
-  padding: 3vw;
-  display: block;
-}
-
-.services-section {
   width: 100%;
-  margin: 0 auto;
-}
-
-.service-button-background {
-  padding: 2.5vh;
-}
-
-.service-button {
-  justify-content: center;
-  align-items: center;
-  font-size: 3vh;
-  display: flex;
 }
 
 /* Portfolio */
