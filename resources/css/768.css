@@ -1,23 +1,8 @@
-.jumbotrons {
-  width: 85vw;
+nav img {
+  display: none;
 }
 
-.jumbotrons h1 {
-  font-size: 7vh;
-}
 
-.jumbotrons h2 {
-  font-size: 4vh;
-}
-
-#magazine-cite {
-  width: 60vw;
-  font-size: 2vh;
-}
-
-#magazine-cite h3 {
-  font-size: 2.5vh;
-}
 .services {
   display: flex;
   flex-direction: column;

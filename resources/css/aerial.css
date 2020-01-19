@@ -243,27 +243,3 @@ a {
   width: 30vw;
   padding: 2vh;
 }
-
-/* Footer */
-
-footer {
-  width: 100%;
-  display: flex;
-  border-top: 1vh solid black;
-  font-size: 2vh;
-}
-
-footer .leftnright {
-    justify-content: space-between;
-    display: flex;
-    width: 100%;
-}
-
-.left,
-.right {
-  margin: 2vh 2vw;
-}
-
-footer a:hover {
-  color: #000000;
-}

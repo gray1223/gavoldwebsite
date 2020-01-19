@@ -1,12 +1,5 @@
-.jumbotrons {
-  width: 70vw;
-}
-
-.services {
-  display: flex;
-  flex-direction: row;
-  height: auto;
-
+.service {
+  font-size: 2vh;
 }
 
 .services a {

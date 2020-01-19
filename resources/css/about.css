@@ -89,33 +89,3 @@ img {
 .person {
   margin-bottom: 8vh;
 }
-
-/* Footer */
-
-footer {
-  width: 100%;
-  display: flex;
-  border-top: 0.3vh solid black;
-  font-size: 2vh;
-  margin-top: 5vh;
-}
-
-footer .leftnright {
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  width: 100%;
-}
-
-.left,
-.right {
-  margin: 2vh 2vw;
-}
-
-footer a:hover {
-  color: #000000;
-}
-
-footer a {
-  text-decoration: none;
-}

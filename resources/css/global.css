@@ -5,3 +5,14 @@
 .navbar img {
   width: 5vw;
 }
+
+
+
+.text {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+  color: white;
+}
