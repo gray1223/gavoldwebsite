@@ -1,3 +1,7 @@
 .navbar {
   background-color: #282828 !important;
 }
+
+.navbar img {
+  width: 5vw;
+}

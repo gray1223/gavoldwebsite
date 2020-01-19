@@ -58,6 +58,10 @@
   align-items: center;
   display: block;
 }
+
+.carosel {
+  width: 100vw;
+}
 /* Contact */
 
 .contact-section h1 {

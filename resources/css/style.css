@@ -7,58 +7,28 @@ body {
 
 /* Home Content */
 
-.home {
-  background-image: url("../../resources/images/green.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  padding-top: 5vh;
-}
 
-.home-content-container  {
+.home {
+  height: 100vh;
+  background-image: url("../images/aprilrivernorth.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  margin-top: 10vh;
-}
-
-.jumbotrons {
-  background-color: rgba(40, 40, 40, 0.5) !important;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  overflow: hidden;
-  padding: 2vw;
-  width: 60vw;
-}
-.home-content-container h1 {
-  font-size: 9vh;
-  font-weight: 700;
-  line-height: 1.4;
-}
-
-.home-content-container h2 {
-  font-size: 5vh;
-  line-height: 1.4;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-}
-
-#magazine-cite {
-  font-size: 2.5vh !important;
-  color: white;
-  background-color: rgba(40, 40, 40, 0.5);
-  margin-top: 4vh;
-  padding: 1vh 1vw;
-  display: flex;
-  border-radius: 1vh;
   text-align: center;
 }
 
+.jumbotrons {
+  background-color: rgba(0,0,0,0.6);
+  padding: 3vh;
+}
 
+.jumbotrons h1 {
+  font-size: 8vh;
+}
 /* Services */
 /*
 .services-section {

@@ -1,36 +1,17 @@
-
-.jumbotrons {
-  font-size: 4vh;
-  width: 90vw !important;
-  max-width: 91vw;
-}
-
-.home-content-container h1 {
-  font-size: 4vh;
-}
-
-.home-content-container h2 {
-  font-size: 3vh;
-  font-weight: 400;
-}
-
-a.navbar-brand {
-  font-size: 2.3vh !important;
-  padding-right: 5vw;
-}
-
-#magazine-cite {
-  width: 80vw;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-#magazine-cite h3 {
-  font-size: 2vh;
+nav img {
+  display: none;
 }
 
 .home {
-  width: 100%;
+  height: 100vh;
+}
+
+.jumbotrons h1 {
+  font-size: 4vh;
+}
+
+.jumbotrons h2 {
+  font-size: 2.8vh;
 }
 
 /* Services */
@@ -61,6 +42,10 @@ a.navbar-brand {
   justify-content: center;
   align-items: center;
   display: block;
+}
+
+.carosel {
+  width: 100vw;
 }
 /* Contact */
 

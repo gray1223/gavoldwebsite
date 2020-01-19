@@ -44,3 +44,8 @@
 .testimonial p {
   height: auto;
 }
+
+.carosel {
+  width: 100vw;
+  margin-bottom: 5vh;
+}
