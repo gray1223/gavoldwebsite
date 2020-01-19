@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://grayaerialvisual.com/</loc>
-  <lastmod>2018-07-18T04:04:54+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://grayaerialvisual.com/aerial.html</loc>
-  <lastmod>2018-07-18T04:04:54+00:00</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://grayaerialvisual.com/terms.html</loc>
-  <lastmod>2018-07-18T04:04:54+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://grayaerialvisual.com/store.html</loc>
-  <lastmod>2018-07-18T04:04:54+00:00</lastmod>
-  <priority>0</priority>
-</url>
-
-
-
+<?xml-stylesheet type='text/xsl' href='sitemap.xsl'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://grayaerialvisual.com/aerial.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2020-01-19T21:22:18Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grayaerialvisual.com/index.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2020-01-19T21:22:18Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grayaerialvisual.com/web.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2020-01-19T21:22:18Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grayaerialvisual.com/design.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2020-01-19T21:22:18Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grayaerialvisual.com/terms.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>0</priority>
+    <lastmod>2020-01-19T21:22:18Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grayaerialvisual.com/about.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2020-01-19T21:22:18Z</lastmod>
+  </url>
 </urlset>
