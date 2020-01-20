@@ -6,16 +6,16 @@ nav img {
 .services {
   display: flex;
   flex-direction: row;
-  height: 25vh;
+  height: auto;
 }
 
 .services a {
-  width: 100%;
+  width: 33.334%;
 }
 
 .service {
   width: 100%;
-  height: 25vh
+  height: 40vh;
 }
 
 
@@ -29,22 +29,4 @@ nav img {
 
 .contact-section {
   width: 35vw;
-}
-
-.contact p {
-  width: 70vw;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.contact-section h2 {
-  font-size: 1.5vh;
-}
-
-form {
-  width: 50vw;
-}
-
-.form-title {
-  margin-bottom: 2vh;
 }
