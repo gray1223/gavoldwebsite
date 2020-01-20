@@ -1,6 +1,4 @@
-.home {
-  margin-bottom: 5vh;
-}
+
 
 .aerial-intro {
   margin-bottom: 3vh;
@@ -13,4 +11,17 @@
 .info-section {
   width: 40vw;
   max-height: 100vh;
+}
+
+.quals {
+  height: auto;
+}
+
+.quals h1 {
+  font-size: 3.5vh;
+  padding: 1.5vh;
+}
+
+.book {
+  margin-bottom: 1vh;
 }
