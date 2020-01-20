@@ -3,6 +3,16 @@ nav img {
 }
 
 
+.contact {
+  flex-direction: column;
+}
+
+.section {
+  width: 100%;
+  margin: 3vh;
+}
+
+
 .home {
   height: 100vh;
 }
