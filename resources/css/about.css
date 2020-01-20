@@ -16,8 +16,8 @@ ul.service {
 .home {
   height: 50vh;
   padding-top: 5vh;
-  background-image: url("../images/GAV.jpg");
-  background-size: contain;
+  background-image: url("../images/banner.jpeg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -33,9 +33,7 @@ ul.service {
   flex-direction: column;
   overflow: hidden;
   padding: 1vw;
-  width: 30vw;
   color: white;
-  margin-top: 7vh;
   text-align: center;
   border: 0.7vh white solid;
 }
@@ -60,6 +58,7 @@ ul.service {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 5vh;
 }
 
 .person {

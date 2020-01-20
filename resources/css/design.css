@@ -105,6 +105,10 @@ body {
   flex-direction: row;
 }
 
+.group:hover {
+  opacity: 0.85;
+}
+
 .group img {
   display: flex;
   flex-direction: row;

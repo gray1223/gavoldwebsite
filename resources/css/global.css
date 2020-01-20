@@ -16,3 +16,33 @@
   background-color: #282828;
   color: white;
 }
+
+
+
+.book {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.book h1 {
+  font-size: 2vh;
+}
+
+.book a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  border: 0.3vh solid #282828;
+  padding: 0.3vh;
+}
+
+.book a:hover {
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.3);
+  color: black;
+}

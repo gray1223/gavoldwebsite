@@ -32,9 +32,7 @@ ul.service {
   flex-direction: column;
   overflow: hidden;
   padding: 1vw;
-  width: 30vw;
   color: white;
-  margin-top: 7vh;
   text-align: center;
   border: 0.7vh white solid;
 }
