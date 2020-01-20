@@ -5,9 +5,8 @@ nav img {
 
 .services {
   display: flex;
-  flex-direction: column;
-  height: auto;
-
+  flex-direction: row;
+  height: 25vh;
 }
 
 .services a {
@@ -16,6 +15,7 @@ nav img {
 
 .service {
   width: 100%;
+  height: 25vh
 }
 
 
