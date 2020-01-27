@@ -6,7 +6,19 @@ body {
 }
 
 /* Home Content */
+.book {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  justify-content: center;
+  align-items: center;
+}
 
+.book a {
+  color: white !important;
+  border: 0.3vh solid white !important;
+  padding: 0.5vh !important;
+}
 
 .home {
   height: 100vh;
