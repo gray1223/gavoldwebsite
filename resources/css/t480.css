@@ -1,4 +1,6 @@
-
+nav img {
+  display: none;
+}
 
 .pagetitle h1 {
   font-size: 3.5vh;

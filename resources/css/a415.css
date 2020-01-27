@@ -1,3 +1,7 @@
+nav img {
+  display: none;
+}
+
 .home {
   height: 50vh;
   background-position: center;

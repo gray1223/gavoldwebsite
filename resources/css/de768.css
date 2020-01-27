@@ -1,3 +1,7 @@
+nav img {
+  display: none;
+}
+
 .image img {
   width: 40vw;
 }

@@ -1,3 +1,7 @@
+nav img {
+  display: none;
+}
+
 .jumbotrons {
   width: 60vw;
 }
