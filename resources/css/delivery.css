@@ -3,6 +3,7 @@ body {
   font-size: 2.3vh;
   font-family: 'Source Code Pro', monospace !important;
   max-width: 100%;
+  background-color: #282828 !important;
 }
 
 .navbar {
