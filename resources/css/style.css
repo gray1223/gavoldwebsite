@@ -164,6 +164,8 @@ body {
   width: 10vw;
   padding: 3vh;
   border-radius: 30%;
+  margin-right: 2vw;
+  margin-top: 2vh;
 }
 
 .power-button button {
