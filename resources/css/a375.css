@@ -23,6 +23,10 @@ nav img {
   font-size: 3vh;
 }
 
+.image-gallery img {
+  width: 100vw;
+}
+
 .quals {
   height: 20vh;
   margin-bottom: 5vh;

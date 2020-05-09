@@ -88,6 +88,35 @@ body {
 
 }
 
+.image-gallery {
+  display: flex;
+  width: 90vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.gallery-container h2 {
+  font-size: 3vh;
+  width: 90vw;
+  text-align: center;
+}
+
+.image-gallery img {
+  width: 27vw;
+  display: flex;
+  padding: 2vh;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* Information */
 
