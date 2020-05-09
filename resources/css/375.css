@@ -14,6 +14,10 @@ nav img {
   font-size: 2.8vh;
 }
 
+.jumbotrons h3 {
+  font-size: 2.3vh;
+}
+
 /* Services */
 .services {
   display: flex;

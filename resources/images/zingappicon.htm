@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://apps.apple.com/us/app/zing-drone-delivery/id1508647381 -->
+<html lang="en-us" prefix="og: http://ogp.me/ns#" xml:lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    
+<meta name="web-experience-app/config/environment" content="%7B%22appVersion%22%3A1%2C%22modulePrefix%22%3A%22web-experience-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history-hash-router-scroll%22%2C%22historySupportMiddleware%22%3Atrue%2C%22contentSecurityPolicyMeta%22%3Atrue%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%5B%22&#39;none&#39;%22%5D%2C%22img-src%22%3A%5B%22&#39;self&#39;%22%2C%22http%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%2C%22*.apple.com%22%2C%22*.googleusercontent.com%22%2C%22data%3A%22%5D%2C%22style-src%22%3A%5B%22&#39;self&#39;%22%2C%22&#39;unsafe-inline&#39;%22%2C%22*.apple.com%22%5D%2C%22font-src%22%3A%5B%22&#39;self&#39;%22%2C%22http%3A%2F%2F*.apple.com%22%2C%22https%3A%2F%2F*.apple.com%22%5D%2C%22media-src%22%3A%5B%22&#39;self&#39;%22%2C%22blob%3A%22%2C%22http%3A%2F%2F*%22%2C%22https%3A%2F%2F*%22%5D%2C%22connect-src%22%3A%5B%22&#39;self&#39;%22%2C%22*.apple.com%22%2C%22https%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%5D%2C%22script-src%22%3A%5B%22&#39;self&#39;%22%2C%22&#39;unsafe-inline&#39;%22%2C%22&#39;unsafe-eval&#39;%22%2C%22*.apple.com%22%5D%2C%22frame-src%22%3A%5B%22&#39;self&#39;%22%2C%22*.apple.com%22%2C%22itmss%3A%22%2C%22itms-appss%3A%22%2C%22itms-bookss%3A%22%2C%22itms-itunesus%3A%22%2C%22itms-messagess%3A%22%2C%22itms-podcasts%3A%22%2C%22itms-watchs%3A%22%2C%22macappstores%3A%22%2C%22musics%3A%22%2C%22apple-musics%3A%22%2C%22podcasts%3A%22%2C%22videos%3A%22%5D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_JQUERY_INTEGRATION%22%3Atrue%7D%2C%22APP%22%3A%7B%22PROGRESS_BAR_DELAY%22%3A3000%2C%22name%22%3A%22web-experience-app%22%2C%22version%22%3A%222018.3.0%2B0d99c009%22%7D%2C%22MEDIA_API%22%3A%7B%22teamId%22%3A%22AMPWebPlay%22%2C%22keyId%22%3A%22WebPlayKid%22%2C%22privateKeyPath%22%3A%22ssl%2Fwebplayer.p8%22%2C%22token%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpc3MiOiJBTVBXZWJQbGF5IiwiaWF0IjoxNTg4MjAyNTM5LCJleHAiOjE2MDM3NTQ1Mzl9.ayXJqTDM0879m8ct_vyq_EMM2S1ynbYLolv4wVOPN3B1HNbUDg95796-fL3KioquQJPieGSGLRAfvVoU7_5zvA%22%7D%2C%22routerScroll%22%3A%7B%22targetElement%22%3A%22%23ember-app%22%7D%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en-gb%22%2C%22useDevLoc%22%3Afalse%2C%22pathToLocales%22%3A%22dist%2Flocales%22%7D%2C%22moment%22%3A%7B%22includeLocales%22%3Atrue%2C%22includeTimezone%22%3A%22subset%22%7D%2C%22browserify%22%3A%7B%22transform%22%3A%5B%5B%22babelify%22%2C%7B%22presets%22%3A%5B%22env%22%5D%2C%22global%22%3Atrue%2C%22only%22%3A%7B%7D%7D%5D%5D%7D%2C%22API%22%3A%7B%22AppHost%22%3A%22https%3A%2F%2Famp-api.apps.apple.com%22%2C%22MZStore%22%3A%22https%3A%2F%2Fitunes.apple.com%22%2C%22UTSHost%22%3A%22https%3A%2F%2Ftv.apple.com%2Fapi%2Futs%2Fpreview%22%2C%22PodcastHost%22%3A%22https%3A%2F%2Famp-api.podcasts.apple.com%22%2C%22StorePlatform%22%3A%22https%3A%2F%2Fuclient-api.itunes.apple.com%2FWebObjects%2FMZStorePlatform.woa%2Fwa%22%2C%22BookHost%22%3A%22https%3A%2F%2Famp-api.books.apple.com%22%2C%22globalElementsPath%22%3A%22%2Fglobal-elements%22%2C%22videoLocalizationPath%22%3A%22%2Fglobal%2Fac_media_player%2Fscripts%2Fac_media_languages%2F%22%2C%22appleAppsDomain%22%3A%22apps.apple.com%22%2C%22applePodcastsDomain%22%3A%22podcasts.apple.com%22%2C%22appleBooksDomain%22%3A%22books.apple.com%22%2C%22appleMusicDomain%22%3A%22music.apple.com%22%2C%22appleTvDomain%22%3A%22tv.apple.com%22%2C%22obcMetadataBaseUrl%22%3A%22%2Fapi%2Fbooks-metadata%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%7B%7D%5D%7D%2C%22ember-a11y-testing%22%3A%7B%22componentOptions%22%3A%7B%22turnAuditOff%22%3Atrue%2C%22axeOptions%22%3A%7B%22rules%22%3A%7B%22color-contrast%22%3A%7B%22enabled%22%3Afalse%7D%7D%7D%7D%7D%2C%22ember-short-number%22%3A%7B%22locales%22%3A%5B%22ar-dz%22%2C%22ar-bh%22%2C%22ar-eg%22%2C%22ar-iq%22%2C%22ar-jo%22%2C%22ar-kw%22%2C%22ar-lb%22%2C%22ar-ly%22%2C%22ar-ma%22%2C%22ar-om%22%2C%22ar-qa%22%2C%22ar-sa%22%2C%22ar-sd%22%2C%22ar-sy%22%2C%22ar-tn%22%2C%22ar-ae%22%2C%22ar-ye%22%2C%22he-il%22%2C%22iw-il%22%2C%22ca-es%22%2C%22cs-cz%22%2C%22da-dk%22%2C%22de-ch%22%2C%22de-de%22%2C%22el-gr%22%2C%22en-au%22%2C%22en-ca%22%2C%22en-gb%22%2C%22en-us%22%2C%22es-419%22%2C%22es-es%22%2C%22es-mx%22%2C%22es-xl%22%2C%22et-ee%22%2C%22fi-fi%22%2C%22fr-ca%22%2C%22fr-fr%22%2C%22hi-in%22%2C%22hr-hr%22%2C%22hu-hu%22%2C%22id-id%22%2C%22is-is%22%2C%22it-it%22%2C%22iw-il%22%2C%22ja-jp%22%2C%22ko-kr%22%2C%22lt-lt%22%2C%22lv-lv%22%2C%22ms-my%22%2C%22nl-nl%22%2C%22no-no%22%2C%22no-nb%22%2C%22nb-no%22%2C%22pl-pl%22%2C%22pt-br%22%2C%22pt-pt%22%2C%22ro-ro%22%2C%22ru-ru%22%2C%22sk-sk%22%2C%22sv-se%22%2C%22th-th%22%2C%22tr-tr%22%2C%22uk-ua%22%2C%22vi-vi%22%2C%22vi-vn%22%2C%22zh-cn%22%2C%22zh-hans%22%2C%22zh-hant%22%2C%22zh-hk%22%2C%22zh-tw%22%2C%22ar%22%2C%22ca%22%2C%22cs%22%2C%22da%22%2C%22de%22%2C%22el%22%2C%22en%22%2C%22es%22%2C%22fi%22%2C%22fr%22%2C%22hi%22%2C%22hr%22%2C%22hu%22%2C%22id%22%2C%22is%22%2C%22it%22%2C%22ja%22%2C%22ko%22%2C%22lt%22%2C%22lv%22%2C%22ms%22%2C%22nb%22%2C%22nl%22%2C%22no%22%2C%22pl%22%2C%22pt%22%2C%22ro%22%2C%22ru%22%2C%22sk%22%2C%22sv%22%2C%22th%22%2C%22tr%22%2C%22uk%22%2C%22vi%22%2C%22zh%22%5D%7D%2C%22METRICS%22%3A%7B%22isEnabled%22%3Atrue%2C%22autoTrackingEnabled%22%3Atrue%2C%22topic%22%3A%22xp_amp_web_exp%22%2C%22appName%22%3A%22web-experience-app%22%2C%22metricsUrl%22%3A%22https%3A%2F%2Fxp.apple.com%2Freport%22%2C%22compoundSeparator%22%3A%22_%22%7D%2C%22MEDIA_SHELF%22%3A%7B%22GRID_CONFIG%22%3A%7B%22books-brick-row%22%3A%7B%22small%22%3A1%2C%22medium%22%3A2%2C%22large%22%3A3%7D%7D%2C%22MEDIA_QUERIES%22%3A%7B%22small%22%3A%22(max-width%3A%20735px)%22%2C%22medium%22%3A%22(min-width%3A%20736px)%20and%20(max-width%3A%201068px)%22%2C%22large%22%3A%22(min-width%3A%201069px)%22%7D%7D%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22exportApplicationGlobal%22%3Afalse%7D">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; img-src &#39;self&#39; http://*.mzstatic.com *.mzstatic.com *.apple.com *.googleusercontent.com data:; style-src &#39;self&#39; &#39;unsafe-inline&#39; *.apple.com; font-src &#39;self&#39; http://*.apple.com https://*.apple.com; media-src &#39;self&#39; blob: http://* https://*; connect-src &#39;self&#39; *.apple.com https://*.mzstatic.com *.mzstatic.com; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; *.apple.com; frame-src &#39;self&#39; *.apple.com itmss: itms-appss: itms-bookss: itms-itunesus: itms-messagess: itms-podcasts: itms-watchs: macappstores: musics: apple-musics: podcasts: videos:; ">
+<!-- EMBER_CLI_FASTBOOT_TITLE --><link rel="stylesheet" name="fonts" href="./zingappicon_files/fonts" as="style" onload="undefined">  
+<link rel="stylesheet" type="text/css" href="./zingappicon_files/ac-global-nav.d915b46b2869cd416cbafe206ca74838.css" data-global-elements-nav-styles="">
+<link rel="stylesheet" type="text/css" href="./zingappicon_files/ac-global-footer.23e044b4f5b5dd393dc9767d96faf248.css" data-global-elements-footer-styles="">
+
+    <meta name="version" content="2018.3.0">
+
+    <link integrity="" rel="stylesheet" href="./zingappicon_files/web-experience-app-17a590d6736bb102579f3157ad7e1bed.css" data-rtl="/assets/web-experience-rtl-app-ab09ff6afe21a25899c9d5d51462c6a2.css">
+
+    
+  <script charset="utf-8" src="./zingappicon_files/chunk.d1a0e2a45b401b141683.js"></script>  <meta name="ember-cli-head-start" content=""><title>‎Zing - Drone Delivery on the App&nbsp;Store</title>
+<link rel="canonical" href="https://apps.apple.com/us/app/zing-drone-delivery/id1508647381">
+  <meta name="description" content="‎Read reviews, compare customer ratings, see screenshots, and learn more about Zing - Drone Delivery. Download Zing - Drone Delivery and enjoy it on your iPhone, iPad, and iPod touch." id="ember471" class="ember-view">
+</meta>
+  <meta name="keywords" content="Zing - Drone Delivery, Zing Drones, Food &amp; Drink, Lifestyle, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes" id="ember473" class="ember-view">
+</meta>
+  <meta property="og:title" content="‎Zing - Drone Delivery" id="ember475" class="ember-view">
+</meta>
+  <meta property="og:description" content="‎Drone delivery has never been easier. You can use this application to order food and medicine locally and have it delivered straight to your door by a drone today.
+
+We use drone pilots from the vast network of over 170,000 Part 107 FAA Certified drone pilots throughout the United States.
+
+This app i…" id="ember477" class="ember-view">
+</meta>
+  <meta property="og:site_name" content="App Store" id="ember479" class="ember-view">
+</meta>
+  <meta property="og:url" content="https://apps.apple.com/us/app/zing-drone-delivery/id1508647381" id="ember481" class="ember-view">
+</meta>
+  <meta property="og:image" content="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png" id="ember483" class="ember-view">
+</meta>
+  <meta property="og:image:alt" content="Zing - Drone Delivery on the App Store" id="ember485" class="ember-view">
+</meta>
+  <meta property="og:image:secure_url" content="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png" id="ember487" class="ember-view">
+</meta>
+  <meta property="og:image:type" content="image/png" id="ember489" class="ember-view">
+</meta>
+  <meta property="og:image:width" content="1200" id="ember491" class="ember-view">
+</meta>
+  <meta property="og:image:height" content="630" id="ember493" class="ember-view">
+</meta>
+  <meta property="og:type" content="website" id="ember495" class="ember-view">
+</meta>
+  <meta property="og:locale" content="en_US" id="ember497" class="ember-view">
+</meta>
+  <meta property="fb:app_id" content="116556461780510" id="ember499" class="ember-view">
+</meta>
+  <meta name="twitter:title" content="‎Zing - Drone Delivery" id="ember501" class="ember-view">
+</meta>
+  <meta name="twitter:description" content="‎Drone delivery has never been easier. You can use this application to order food and medicine locally and have it delivered straight to your door by a drone today.
+
+We use drone pilots from the vast network of over 170,000 Part 107 FAA Certified drone pilots throughout the United States.
+
+This app i…" id="ember503" class="ember-view">
+</meta>
+  <meta name="twitter:site" content="@AppStore" id="ember505" class="ember-view">
+</meta>
+  <meta name="twitter:domain" content="AppStore" id="ember507" class="ember-view">
+</meta>
+  <meta name="twitter:image" content="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/600x600wa.png" id="ember509" class="ember-view">
+</meta>
+  <meta name="twitter:image:alt" content="Zing - Drone Delivery on the App Store" id="ember511" class="ember-view">
+</meta>
+  <meta name="twitter:card" content="summary_large_image" id="ember513" class="ember-view">
+</meta>
+  <meta name="apple-itunes-app" content="app-id=375380948, app-argument=https://apps.apple.com/us/app/zing-drone-delivery/id1508647381" id="ember515" class="ember-view">
+</meta>
+  <script name="schema:software-application" id="ember517" class="ember-view" type="application/ld+json">{"@context":"http://schema.org","@type":"SoftwareApplication","name":"Zing - Drone Delivery","description":"Drone delivery has never been easier. You can use this application to order food and medicine locally and have it delivered straight to your door by a drone today.\n\nWe use drone pilots from the vast network of over 170,000 Part 107 FAA Certified drone pilots throughout the United States.\n\nThis app is really easy to use. Just select a local business, select your items, and checkout. Join the drone delivery revolution today!\n\nFeatures:\n• Order from a variety of local restaurants\n• Order prescriptions and over-the-counter medication from local phamacies\n• Get notifications for order status updates\n• Drone pilots will notify you when they are about to arrive\n• Apple Pay accepted\n• Quick and eco-friendly\n• Login to see all of your past orders\n• Rate businesses and check reviews\n\n\n","screenshot":["https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/8c/97/67/8c976788-80d1-9958-c587-ff5454e24344/pr_source.png/300x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e8/ad/1c/e8ad1cae-3450-d8b9-caf5-76d816f20de4/pr_source.png/300x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/45/27/3b/45273b43-cd3d-e660-80e3-d4b72ac63390/pr_source.png/300x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/f5/57/92/f55792cd-d8a2-b6d9-926b-6a450abdb746/pr_source.png/643x0w.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/b6/06/b3/b606b307-8c25-a7c0-6357-b4fd7079b6b7/pr_source.png/643x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/b9/57/bcb957ec-55b2-1725-d309-715c024c6da8/pr_source.png/643x0w.jpg"],"image":"https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png","applicationCategory":"Food & Drink","datePublished":"May 2, 2020","operatingSystem":"Requires iOS 13.0 or later. Compatible with iPhone, iPad, and iPod touch.","author":{"@type":"Person","name":"Zing Drones","url":"https://apps.apple.com/us/developer/zing-drones/id1435985007"},"aggregateRating":{"@type":"AggregateRating","ratingValue":5,"reviewCount":2},"offers":{"@type":"Offer","price":0,"priceCurrency":"USD","category":"free"}}
+</script>
+  <meta name="apple:content_id" content="1508647381" id="ember519" class="ember-view">
+</meta>
+
+<meta name="ember-cli-head-end" content="">
+</head>
+  <body class="ember-application has-js no-touch"><aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="en-US" dir="ltr" data-strings="{ &#39;exit&#39;: &#39;Exit&#39;, &#39;view&#39;: &#39;{%STOREFRONT%} Store Home&#39;, &#39;segments&#39;: { &#39;smb&#39;: &#39;Business Store Home&#39;, &#39;eduInd&#39;: &#39;Education Store Home&#39;, &#39;other&#39;: &#39;Store Home&#39; } }">
+</aside><input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate"><nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global" data-hires="false" data-analytics-region="global nav" lang="en-US" dir="ltr" data-www-domain="www.apple.com" data-store-locale="us" data-store-root-path="/us" data-store-api="https://www.apple.com/[storefront]/shop/bag/status" data-search-locale="en_US" data-search-suggestions-api="https://www.apple.com/search-services/suggestions/" data-search-defaultlinks-api="https://www.apple.com/search-services/suggestions/defaultlinks/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="https://apps.apple.com/us/app/zing-drone-delivery/id1508647381#ac-gn-menustate" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Global Nav Open Menu</span>
+				</a>
+				<a href="https://apps.apple.com/us/app/zing-drone-delivery/id1508647381#" role="button" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Global Nav Close Menu</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count :">
+						<span class="ac-gn-link-text">Shopping Bag</span>
+					</a>
+					<span class="ac-gn-bag-badge">
+						<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<div class="ac-gn-search-placeholder-container" role="search">
+			<div class="ac-gn-search ac-gn-search-small">
+				<a id="ac-gn-link-search-small" class="ac-gn-link" href="https://www.apple.com/us/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link="" aria-label="Search apple.com">
+					<div class="ac-gn-search-placeholder-bar">
+						<div class="ac-gn-search-placeholder-input">
+							<div class="ac-gn-search-placeholder-input-text" aria-hidden="true">
+								<div class="ac-gn-link-search ac-gn-search-placeholder-input-icon"></div>
+								<span class="ac-gn-search-placeholder">Search apple.com</span>
+							</div>
+						</div>
+						<div class="ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close">
+							<span class="ac-gn-searchview-close-cancel" aria-hidden="true">Cancel</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="https://www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+						<span class="ac-gn-link-text">Apple</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="https://www.apple.com/mac/" data-analytics-title="mac">
+						<span class="ac-gn-link-text">Mac</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="https://www.apple.com/ipad/" data-analytics-title="ipad">
+						<span class="ac-gn-link-text">iPad</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="https://www.apple.com/iphone/" data-analytics-title="iphone">
+						<span class="ac-gn-link-text">iPhone</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="https://www.apple.com/watch/" data-analytics-title="watch">
+						<span class="ac-gn-link-text">Watch</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="https://www.apple.com/tv/" data-analytics-title="tv">
+						<span class="ac-gn-link-text">TV</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="https://www.apple.com/music/" data-analytics-title="music">
+						<span class="ac-gn-link-text">Music</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/" data-analytics-title="support">
+						<span class="ac-gn-link-text">Support</span>
+					</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a id="ac-gn-link-search" class="ac-gn-link ac-gn-link-search" href="https://www.apple.com/us/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link="" aria-label="Search apple.com"></a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<div class="ac-gn-bag-wrapper">
+					<a class="ac-gn-link ac-gn-link-bag" href="https://www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count : {%BAGITEMCOUNT%}">
+							<span class="ac-gn-link-text">Shopping Bag</span>
+						</a>
+					<span class="ac-gn-bag-badge" aria-hidden="true">
+								<span class="ac-gn-bag-badge-separator"></span>
+					<span class="ac-gn-bag-badge-number"></span>
+					<span class="ac-gn-bag-badge-unit">+</span>
+					</span>
+				</div>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<div class="ac-gn-searchview-bar">
+					<div class="ac-gn-searchview-bar-wrapper">
+						<form id="ac-gn-searchform" class="ac-gn-searchform" action="https://www.apple.com/us/search" method="get">
+							<div class="ac-gn-searchform-wrapper">
+								<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-owns="quicklinks suggestions">
+								<input id="ac-gn-searchform-src" type="hidden" name="src" value="itunes_serp">
+								<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit Search"></button>
+								<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search">
+										<span class="ac-gn-searchform-reset-background"></span>
+									</button>
+							</div>
+						</form>
+						<button id="ac-gn-searchview-close-small" class="ac-gn-searchview-close ac-gn-searchview-close-small" aria-label="Cancel Search">
+								<span class="ac-gn-searchview-close-cancel" aria-hidden="true">
+									Cancel
+								</span>
+							</button>
+					</div>
+				</div>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults=""></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Cancel Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim">
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+			</div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+			</div>
+		</aside>
+	</div>
+</nav><div class="ac-gn-blur"></div><div id="ac-gn-curtain" class="ac-gn-curtain"></div><div id="ac-gn-placeholder" class="ac-nav-placeholder"></div><div id="validately-unmoderated-testing" class="vldt-installed" style="display: none;"></div>
+    <div id="ember-app">
+      
+    <div class="ember-view" id="ember107"><!---->
+
+<!---->
+
+<!---->
+
+<main class="selfclear is-app-theme">
+  <style id="ember160" class="ember-view"><!----></style>
+
+  <!---->
+
+  <div id="ember161" class="focusing-outlet ember-view"><div id="ember163" class="focusing-outlet ember-view" tabindex="-1" role="group" data-focus-method="mouse">
+  <input id="localnav-menustate" class="localnav-menustate" type="checkbox">
+<nav id="localnav" class="css-sticky we-localnav localnav we-localnav--app-store" role="navigation" data-sticky="">
+  <div class="localnav-wrapper">
+    <div class="localnav-background we-localnav__background"></div>
+    <div class="localnav-content we-localnav__content">
+      <div class="localnav-title we-localnav__title">
+        <a href="https://www.apple.com/ios/app-store/" data-we-link-to-exclude=""><span class="we-localnav__title__product" data-test-we-localnav-store-title="">App Store</span></a> <span class="we-localnav__title__qualifier" data-test-we-localnav-preview-title="">Preview</span>
+      </div>
+      <div class="localnav-menu we-localnav__menu we-localnav__menu--app">
+        <div class="localnav-actions we-localnav__actions">
+            
+<!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<span class="we-localnav__shim" aria-hidden="true"></span>
+<label id="localnav-curtain" for="localnav-menustate"></label>
+
+
+<div id="ember522" class="animation-wrapper is-visible ember-view">
+<!---->
+    <div id="ember523" class="ember-view"><div class="l-content-width we-banner" role="alert">
+    <p class="we-banner__copy">This app is available only on the App&nbsp;Store for iPhone and iPad.</p>
+</div>
+</div>
+
+  <div id="ember524" class="ember-view"><section id="ember525" class="l-content-width section section--hero product-hero ember-view"><div class="l-row">
+  <div class="product-hero__media l-column small-5 medium-4 large-3 small-valign-top">
+      <picture id="ember526" class="we-artwork ember-view product-hero__artwork we-artwork--fullwidth we-artwork--ios-app-icon">
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.png 2x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/217x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/434x0w.png 2x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/88/73/5b/88735bef-57b4-4143-1524-e474bddac974/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/492x0w.png 2x">
+        <img class="we-artwork__image ember526" src="./zingappicon_files/246x0w.png" style="" alt="" height="246" width="246">
+
+  <style>
+    .ember526, #ember526::before {
+          width: 246px;
+          height: 246px;
+        }
+        .ember526::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember526, #ember526::before {
+          width: 217px;
+          height: 217px;
+        }
+        .ember526::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember526, #ember526::before {
+          width: 230px;
+          height: 230px;
+        }
+        .ember526::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+  </div>
+
+  <div class="l-column small-7 medium-8 large-9 small-valign-top">
+    <header class="product-header app-header product-header--padded-start" role="banner">
+<!---->
+      <h1 class="product-header__title app-header__title">
+        Zing - Drone Delivery
+          <span class="badge badge--product-title">4+</span>
+      </h1>
+
+        <h2 class="product-header__subtitle app-header__subtitle">Order from local restaurants</h2>
+
+      <h2 class="product-header__identity app-header__identity">
+        <a href="https://apps.apple.com/us/developer/zing-drones/id1435985007" class="link" data-metrics-click="{&quot;actionDetails&quot;:{&quot;type&quot;:&quot;developer&quot;},&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/us/developer/zing-drones/id1435985007&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;1435985007&quot;}" dir="auto">
+          Zing Drones
+        </a>
+      </h2>
+
+        <ul class="product-header__list app-header__list">
+<!---->
+            <li class="product-header__list__item app-header__list__item--user-rating">
+              <ul class="inline-list inline-list--mobile-compact">
+                <li class="inline-list__item">
+                  <figure aria-label="5 out of 5" id="ember530" class="we-star-rating ember-view"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-5"></span>
+</span>
+  <figcaption class="we-rating-count star-rating__count">5.0, 2 Ratings</figcaption>
+</figure>
+                </li>
+              </ul>
+            </li>
+        </ul>
+
+      <ul class="product-header__list app-header__list">
+<!---->
+        <li class="product-header__list__item">
+          <ul class="inline-list inline-list--mobile-compact">
+              <li class="inline-list__item inline-list__item--bulleted app-header__list__item--price">Free</li>
+
+<!---->          </ul>
+        </li>
+
+<!---->
+<!---->      </ul>
+
+<!---->
+<!---->
+<!---->
+<!---->    </header>
+  </div>
+</div>
+</section>
+
+<!---->
+    <section class="l-content-width section section--bordered">
+      <div class="section__nav section__nav--align-start">
+        <h2 class="section__headline">Screenshots</h2>
+        <nav class="gallery-nav">
+          <ul class="gallery-nav__items">
+              <li class="gallery-nav__item">
+<a href="https://apps.apple.com/us/app/zing-drone-delivery/id1508647381#?platform=iphone" id="ember532" class="link link--no-decoration is-active ember-view">                  iPhone
+</a>              </li>
+              <li class="gallery-nav__item">
+<a href="https://apps.apple.com/us/app/zing-drone-delivery/id1508647381#?platform=ipad" id="ember533" class="link link--no-decoration ember-view">                  iPad
+</a>              </li>
+          </ul>
+        </nav>
+      </div>
+    <div id="ember534" class="we-screenshot-viewer ember-view"><div class="we-screenshot-viewer__screenshots">
+  <ul class="l-row l-row--peek we-screenshot-viewer__screenshots-list">
+        <li class="l-column small-2 medium-3 large-3">
+          <picture id="ember536" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-portrait">
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/8c/97/67/8c976788-80d1-9958-c587-ff5454e24344/pr_source.png/230x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/8c/97/67/8c976788-80d1-9958-c587-ff5454e24344/pr_source.png/460x0w.png 2x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/8c/97/67/8c976788-80d1-9958-c587-ff5454e24344/pr_source.png/157x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/8c/97/67/8c976788-80d1-9958-c587-ff5454e24344/pr_source.png/314x0w.png 2x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/8c/97/67/8c976788-80d1-9958-c587-ff5454e24344/pr_source.png/300x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/8c/97/67/8c976788-80d1-9958-c587-ff5454e24344/pr_source.png/600x0w.png 2x">
+        <img class="we-artwork__image ember536" src="./zingappicon_files/300x0w.png" style="" alt="" height="649" width="300">
+
+  <style>
+    .ember536, #ember536::before {
+          width: 300px;
+          height: 649px;
+        }
+        .ember536::before {
+          padding-top: 216.33333333333334%;
+        }
+@media (min-width: 736px) {
+          .ember536, #ember536::before {
+          width: 157px;
+          height: 339px;
+        }
+        .ember536::before {
+          padding-top: 215.92356687898092%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember536, #ember536::before {
+          width: 230px;
+          height: 497px;
+        }
+        .ember536::before {
+          padding-top: 216.08695652173915%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3">
+          <picture id="ember541" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-portrait">
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e8/ad/1c/e8ad1cae-3450-d8b9-caf5-76d816f20de4/pr_source.png/230x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e8/ad/1c/e8ad1cae-3450-d8b9-caf5-76d816f20de4/pr_source.png/460x0w.png 2x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e8/ad/1c/e8ad1cae-3450-d8b9-caf5-76d816f20de4/pr_source.png/157x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e8/ad/1c/e8ad1cae-3450-d8b9-caf5-76d816f20de4/pr_source.png/314x0w.png 2x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e8/ad/1c/e8ad1cae-3450-d8b9-caf5-76d816f20de4/pr_source.png/300x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/e8/ad/1c/e8ad1cae-3450-d8b9-caf5-76d816f20de4/pr_source.png/600x0w.png 2x">
+        <img class="we-artwork__image ember541" src="./zingappicon_files/300x0w(1).png" style="" alt="" height="649" width="300">
+
+  <style>
+    .ember541, #ember541::before {
+          width: 300px;
+          height: 649px;
+        }
+        .ember541::before {
+          padding-top: 216.33333333333334%;
+        }
+@media (min-width: 736px) {
+          .ember541, #ember541::before {
+          width: 157px;
+          height: 339px;
+        }
+        .ember541::before {
+          padding-top: 215.92356687898092%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember541, #ember541::before {
+          width: 230px;
+          height: 497px;
+        }
+        .ember541::before {
+          padding-top: 216.08695652173915%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3">
+          <picture id="ember546" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-portrait">
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/45/27/3b/45273b43-cd3d-e660-80e3-d4b72ac63390/pr_source.png/230x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/45/27/3b/45273b43-cd3d-e660-80e3-d4b72ac63390/pr_source.png/460x0w.png 2x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/45/27/3b/45273b43-cd3d-e660-80e3-d4b72ac63390/pr_source.png/157x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/45/27/3b/45273b43-cd3d-e660-80e3-d4b72ac63390/pr_source.png/314x0w.png 2x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/45/27/3b/45273b43-cd3d-e660-80e3-d4b72ac63390/pr_source.png/300x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/45/27/3b/45273b43-cd3d-e660-80e3-d4b72ac63390/pr_source.png/600x0w.png 2x">
+        <img class="we-artwork__image ember546" src="./zingappicon_files/300x0w(2).png" style="" alt="" height="649" width="300">
+
+  <style>
+    .ember546, #ember546::before {
+          width: 300px;
+          height: 649px;
+        }
+        .ember546::before {
+          padding-top: 216.33333333333334%;
+        }
+@media (min-width: 736px) {
+          .ember546, #ember546::before {
+          width: 157px;
+          height: 339px;
+        }
+        .ember546::before {
+          padding-top: 215.92356687898092%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember546, #ember546::before {
+          width: 230px;
+          height: 497px;
+        }
+        .ember546::before {
+          padding-top: 216.08695652173915%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+  </ul>
+<!----></div>
+</div>
+  </section>
+
+
+    <section class="l-content-width section section--bordered">
+      <div class="section__description">
+        <h2 class="section__headline visuallyhidden">Description</h2>
+        <div class="l-row">
+          <div id="ember550" class="we-truncate we-truncate--multi-line we-truncate--interactive we-truncate--truncated ember-view l-column small-12 medium-9 large-8">    
+
+      <div data-clamp="" id="ember552" class="we-clamp ember-view" ismorertl="false" style="height: 90px; -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 18.0001px, rgb(0, 0, 0) 18.0001px), linear-gradient(270deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 32.8px, rgb(0, 0, 0) 68.8002px);"><p dir="ltr" data-test-bidi="">Drone delivery has never been easier. You can use this application to order food and medicine locally and have it delivered straight to your door by a drone today.</p>
+<br>
+<p dir="ltr" data-test-bidi="">We use drone pilots from the vast network of over 170,000 Part 107 FAA Certified drone pilots throughout the United States.</p>
+<br>
+<p dir="ltr" data-test-bidi="">This app is really easy to use. Just select a local business, select your items, and checkout. Join the drone delivery revolution today!</p>
+<br>
+<p dir="ltr" data-test-bidi="">Features:</p>
+<p dir="ltr" data-test-bidi="">• Order from a variety of local restaurants</p>
+<p dir="ltr" data-test-bidi="">• Order prescriptions and over-the-counter medication from local phamacies</p>
+<p dir="ltr" data-test-bidi="">• Get notifications for order status updates</p>
+<p dir="ltr" data-test-bidi="">• Drone pilots will notify you when they are about to arrive</p>
+<p dir="ltr" data-test-bidi="">• Apple Pay accepted</p>
+<p dir="ltr" data-test-bidi="">• Quick and eco-friendly</p>
+<p dir="ltr" data-test-bidi="">• Login to see all of your past orders</p>
+<p dir="ltr" data-test-bidi="">• Rate businesses and check reviews</p>
+<br>
+<br>
+<br>
+</div>
+
+  
+
+
+    <button aria-hidden="true" tabindex="-1" class="we-truncate__button link" data-metrics-click="{&quot;actionType&quot;:&quot;more&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;More&quot;}" data-ember-action="" data-ember-action-615="615">
+      more
+    </button>
+</div>
+        </div>
+      </div>
+    </section>
+
+<!---->
+<!---->
+      <section class="l-content-width section section--bordered">
+      <div class="section__nav">
+        <h2 class="section__headline">
+          Ratings and Reviews
+        </h2>
+
+        <a data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;SeeAllReviews&quot;}" rel="nofollow" data-we-link-to-exclude="" href="https://apps.apple.com/us/app/zing-drone-delivery/id1508647381#see-all/reviews" id="ember555" style="display: none;" class="link section__nav__see-all-link ember-view">See All</a>
+      </div>
+
+        <div id="ember556" class="we-customer-ratings lockup ember-view"><div class="l-row">
+  <div class="we-customer-ratings__stats l-column small-4 medium-6 large-4">
+    <div class="we-customer-ratings__averages"><span class="we-customer-ratings__averages__display">5.0</span> out of 5</div>
+      <div class="we-customer-ratings__count small-hide medium-show">2 Ratings</div>
+  </div>
+  <div class=" l-column small-8 medium-6 large-4">
+    <figure class="we-star-bar-graph">
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars we-star-bar-graph__stars--5"></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 100%;"></div>
+          </div>
+        </div>
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars we-star-bar-graph__stars--4"></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars we-star-bar-graph__stars--3"></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars we-star-bar-graph__stars--2"></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+        <div class="we-star-bar-graph__row">
+          <span class="we-star-bar-graph__stars "></span>
+          <div class="we-star-bar-graph__bar">
+            <div class="we-star-bar-graph__bar__foreground-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+    </figure>
+      <p class="we-customer-ratings__count medium-hide">2 Ratings</p>
+  </div>
+</div>
+</div>
+
+      <div class="l-row l-row--peek">
+              
+              <div id="ember564" class="ember-view small-valign-top l-column--equal-height l-column small-4 medium-6 large-4"><div data-test-we-modal="page-overlay" id="ember565" class="ember-view"><!---->
+<!----></div>
+
+
+                <div aria-labelledby="we-customer-review-3" id="ember566" class="we-customer-review lockup ember-view"><figure aria-label="5 out of 5" id="ember567" class="we-star-rating ember-view we-customer-review__rating we-star-rating--large"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-5"></span>
+</span>
+<!----></figure>
+
+<div class="we-customer-review__header we-customer-review__header--user">
+  <span dir="ltr" id="ember568" class="we-truncate we-truncate--single-line ember-view we-customer-review__user">  Merilyn Vettore
+</span>
+
+  <span class="we-customer-review__separator">, </span>
+
+  <time data-test-customer-review-date="" datetime="2020-05-05T05:06:10.000Z" aria-label="May 5, 2020" class="we-customer-review__date">05/05/2020</time>
+</div>
+
+<h3 dir="ltr" id="we-customer-review-3" class="we-truncate we-truncate--single-line ember-view we-customer-review__title">  upmobi.xyz！！Good aso service provider
+</h3>
+
+  <blockquote id="ember569" class="we-truncate we-truncate--multi-line we-truncate--interactive we-truncate--truncated ember-view we-customer-review__body">    
+
+      <div data-clamp="" id="ember571" class="we-clamp ember-view" ismorertl="false" style="height: 72px; -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 18.0001px, rgb(0, 0, 0) 18.0001px), linear-gradient(270deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 32.8px, rgb(0, 0, 0) 68.8002px);"><p dir="ltr" data-test-bidi="">upmobi.xyz is a very good aso service provider. Rating, review, keyword install, almost all the countries can do. Come and visit at upmobi.xyz if you want to get more organic users.</p>
+</div>
+
+  
+
+
+    <button aria-hidden="true" tabindex="-1" class="we-truncate__button link" data-metrics-click="{&quot;actionType&quot;:&quot;more&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;More&quot;}" data-ember-action="" data-ember-action-616="616">
+      more
+    </button>
+</blockquote>
+
+<!----></div>
+              
+</div>
+          
+    
+              <div id="ember574" class="ember-view small-valign-top l-column--equal-height l-column small-4 medium-6 large-4"><div data-test-we-modal="page-overlay" id="ember575" class="ember-view"><!---->
+<!----></div>
+
+
+                <div aria-labelledby="we-customer-review-4" id="ember576" class="we-customer-review lockup ember-view"><figure aria-label="5 out of 5" id="ember577" class="we-star-rating ember-view we-customer-review__rating we-star-rating--large"><span class="we-star-rating-stars-outlines">
+  <span class="we-star-rating-stars we-star-rating-stars-5"></span>
+</span>
+<!----></figure>
+
+<div class="we-customer-review__header we-customer-review__header--user">
+  <span dir="ltr" id="ember578" class="we-truncate we-truncate--single-line ember-view we-customer-review__user">  Grayson Bertaina
+</span>
+
+  <span class="we-customer-review__separator">, </span>
+
+  <time data-test-customer-review-date="" datetime="2020-05-06T15:22:14.000Z" aria-label="May 6, 2020" class="we-customer-review__date">05/06/2020</time>
+</div>
+
+<h3 dir="ltr" id="we-customer-review-4" class="we-truncate we-truncate--single-line ember-view we-customer-review__title">  Drone Delivery Service
+</h3>
+
+  <blockquote id="ember579" class="we-truncate we-truncate--multi-line we-truncate--interactive we-truncate--truncated ember-view we-customer-review__body">    
+
+      <div data-clamp="" id="ember581" class="we-clamp ember-view" ismorertl="false" style="height: 72px; -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 18.0001px, rgb(0, 0, 0) 18.0001px), linear-gradient(270deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 32.8px, rgb(0, 0, 0) 68.8002px);"><p dir="ltr" data-test-bidi="">This delivery method is very cool to experience. The order process was easy and simple, and very enjoyable. It is so cool to watch the drone land and leave the package behind with my sandwich. I can’t wait to see where this goes!</p>
+</div>
+
+  
+
+
+    <button aria-hidden="true" tabindex="-1" class="we-truncate__button link" data-metrics-click="{&quot;actionType&quot;:&quot;more&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;More&quot;}" data-ember-action="" data-ember-action-617="617">
+      more
+    </button>
+</blockquote>
+
+<!----></div>
+              
+</div>
+          
+
+      </div>
+
+        <div class="l-row l-row--margin-top medium-hide">
+              
+<!---->          
+    
+<!---->          
+
+        </div>
+    </section>
+
+
+<!---->
+<!---->
+<section class="l-content-width section section--bordered">
+  <div class="l-row">
+    <div class="l-column small-12">
+      <h2 class="section__headline">Information</h2>
+      <dl class="information-list information-list--app medium-columns">
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Seller</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">
+              Zing Drones LLC
+            </dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Size</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" aria-label="54.5 megabytes">54.5 MB</dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Category</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">
+                <a href="https://itunes.apple.com/us/genre/id6023" class="link" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://itunes.apple.com/us/genre/id6023&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;GenrePage&quot;}">
+                  Food &amp; Drink
+                </a>
+            </dd>
+          </div>
+        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Compatibility</dt>
+          <dd id="ember584" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view information-list__item__definition l-column medium-9 large-6">    
+
+      <div data-clamp="" id="ember586" class="we-clamp ember-view"><p dir="ltr" data-test-bidi="">Requires iOS 13.0 or later. Compatible with iPhone, iPad, and iPod touch.</p>
+</div>
+
+  
+
+
+<!----></dd>
+        </div>
+<!---->        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Languages</dt>
+          <dd id="ember588" class="information-list__item__definition l-column medium-9 large-6 we-truncate we-truncate--multi-line we-truncate--interactive ember-view">    
+
+      <div data-clamp="" id="ember590" class="we-clamp ember-view"><p dir="ltr" data-test-bidi="">English</p>
+</div>
+
+  
+
+
+<!----></dd>
+        </div>
+        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Age Rating</dt>
+          <dd class="information-list__item__definition l-column medium-9 large-6">4+</dd>
+        </div>
+<!----><!---->        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Copyright</dt>
+          <dd class="information-list__item__definition l-column medium-9 large-6 information-list__item__definition--copyright">© 2020 Zing Drones LLC</dd>
+        </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Price</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">Free</dd>
+          </div>
+<!---->
+      </dl>
+    </div>
+    <div class="l-column small-hide medium-show medium-9 medium-offset-3 large-10 large-offset-2">
+      <ul class="inline-list inline-list--app-extensions">
+          <li class="inline-list__item inline-list__item--margin-inline-end-large">
+            <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionDetails&quot;:{&quot;type&quot;:&quot;developer&quot;},&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;@@url@@&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;@@id@@&quot;}" href="https://zingdrones.com/">
+              Developer Website
+            </a>
+          </li>
+          <li class="inline-list__item inline-list__item--margin-inline-end-large">
+            <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToAppSupport&quot;}" href="https://zingdrones.com/">
+              App Support
+            </a>
+          </li>
+<!---->          <li class="inline-list__item inline-list__item--margin-inline-end-large">
+            <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToPrivacyPolicy&quot;}" href="http://zingdrones.com/privacy-policy">
+              Privacy Policy
+            </a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--link-list l-content-width medium-hide">
+  <ul class="link-list link-list--a">
+      <li class="link-list__item link-list__item--a">
+        <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionDetails&quot;:{&quot;type&quot;:&quot;developer&quot;},&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;@@url@@&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;@@id@@&quot;}" href="https://zingdrones.com/">
+          Developer Website
+        </a>
+      </li>
+      <li class="link-list__item link-list__item--a">
+        <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToAppSupport&quot;}" href="https://zingdrones.com/">
+          App Support
+        </a>
+      </li>
+<!---->      <li class="link-list__item link-list__item--a">
+        <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToPrivacyPolicy&quot;}" href="http://zingdrones.com/privacy-policy">
+          Privacy Policy
+        </a>
+      </li>
+  </ul>
+</section>
+
+  <section class="l-content-width section section--bordered">
+    <div class="section__nav">
+      <h2 class="section__headline">Supports</h2>
+    </div>
+    <ul class="supports-list l-row">
+        <li class="supports-list__item l-column l-column--grid small-12 medium-6 large-4">
+          <img src="./zingappicon_files/supports-FamilySharing@2x-f58f31bc78fe9fe7be3565abccbecb34.png" class="supports-list__item__artwork" alt="">
+          <div class="supports-list__item__copy">
+            <h3 dir="ltr" id="ember592" class="we-truncate we-truncate--single-line ember-view supports-list__item__copy__heading">  Family Sharing
+</h3>
+            <h4 id="ember593" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view supports-list__item__copy__description">    
+
+      <div data-clamp="" id="ember595" class="we-clamp ember-view"><p dir="ltr" data-test-bidi="">With Family Sharing set up, up to six family members can use this app.</p>
+</div>
+
+  
+
+
+<!----></h4>
+          </div>
+        </li>
+    </ul>
+  </section>
+
+    <section class="l-content-width section section--bordered">
+      <div class="section__nav">
+        <h2 class="section__headline">
+          More By This Developer
+        </h2>
+        <a data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;SeeAllDeveloperOtherApps&quot;}" rel="nofollow" data-we-link-to-exclude="" href="https://apps.apple.com/us/app/zing-drone-delivery/id1508647381#see-all/developer-other-apps" id="ember597" style="display: none;" class="link section__nav__see-all-link ember-view">See All</a>
+      </div>
+
+      <div class="l-row l-row--peek">
+            
+    
+          <a aria-labelledby="we-lockup-labelled-by-11" data-metrics-location="{&quot;locationType&quot;:&quot;shelfDeveloperOtherApps&quot;}" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/us/app/part-107-reference/id1437979542&quot;,&quot;targetType&quot;:&quot;card&quot;,&quot;targetId&quot;:&quot;1437979542&quot;}" href="https://apps.apple.com/us/app/part-107-reference/id1437979542" id="ember600" class="we-lockup targeted-link l-column small-2 medium-3 large-2 we-lockup--shelf-align-top ember-view">    <picture dir="ltr" id="ember601" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/a1/97/b8/a197b839-0d0b-f0dc-f0af-30baf83c4844/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/146x0w.png 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/a1/97/b8/a197b839-0d0b-f0dc-f0af-30baf83c4844/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/292x0w.png 2x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/a1/97/b8/a197b839-0d0b-f0dc-f0af-30baf83c4844/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/157x0w.png 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/a1/97/b8/a197b839-0d0b-f0dc-f0af-30baf83c4844/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/314x0w.png 2x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/a1/97/b8/a197b839-0d0b-f0dc-f0af-30baf83c4844/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/320x0w.png 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/a1/97/b8/a197b839-0d0b-f0dc-f0af-30baf83c4844/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/640x0w.png 2x">
+        <img class="we-artwork__image ember601" src="./zingappicon_files/320x0w.png" style="" alt="" height="320" width="320">
+
+  <style>
+    .ember601, #ember601::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember601::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember601, #ember601::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember601::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember601, #ember601::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember601::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+<div class="we-lockup__copy">
+<!---->    <div id="we-lockup-labelled-by-11" class="we-lockup__title " aria-label="Part 107 Reference">
+        <div dir="ltr" id="ember605" class="we-truncate we-truncate--single-line ember-view targeted-link__target">  Part 107 Reference
+</div>
+    </div>
+
+      <div dir="ltr" id="ember606" class="we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target">  Reference
+</div>
+<!----></div>
+</a>
+        
+
+    
+    
+          <a aria-labelledby="we-lockup-labelled-by-12" data-metrics-location="{&quot;locationType&quot;:&quot;shelfDeveloperOtherApps&quot;}" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://apps.apple.com/us/app/zing-pilot/id1438380134&quot;,&quot;targetType&quot;:&quot;card&quot;,&quot;targetId&quot;:&quot;1438380134&quot;}" href="https://apps.apple.com/us/app/zing-pilot/id1438380134" id="ember608" class="we-lockup targeted-link l-column small-2 medium-3 large-2 we-lockup--shelf-align-top ember-view">    <picture dir="ltr" id="ember609" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/fb/dd/84/fbdd8400-74e8-b1fc-6bb4-342eb7de9fa9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/146x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/fb/dd/84/fbdd8400-74e8-b1fc-6bb4-342eb7de9fa9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/292x0w.png 2x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/fb/dd/84/fbdd8400-74e8-b1fc-6bb4-342eb7de9fa9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/157x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/fb/dd/84/fbdd8400-74e8-b1fc-6bb4-342eb7de9fa9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/314x0w.png 2x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/fb/dd/84/fbdd8400-74e8-b1fc-6bb4-342eb7de9fa9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/320x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/fb/dd/84/fbdd8400-74e8-b1fc-6bb4-342eb7de9fa9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/640x0w.png 2x">
+        <img class="we-artwork__image ember609" src="./zingappicon_files/320x0w(1).png" style="" alt="" height="320" width="320">
+
+  <style>
+    .ember609, #ember609::before {
+          width: 320px;
+          height: 320px;
+        }
+        .ember609::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember609, #ember609::before {
+          width: 157px;
+          height: 157px;
+        }
+        .ember609::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember609, #ember609::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember609::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+<div class="we-lockup__copy">
+<!---->    <div id="we-lockup-labelled-by-12" class="we-lockup__title " aria-label="Zing Pilot">
+        <div dir="ltr" id="ember613" class="we-truncate we-truncate--single-line ember-view targeted-link__target">  Zing Pilot
+</div>
+    </div>
+
+      <div dir="ltr" id="ember614" class="we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target">  Navigation
+</div>
+<!----></div>
+</a>
+        
+
+
+
+      </div>
+    </section>
+
+<!----></div>
+
+<!---->
+
+<!----></div>
+</div></div>
+
+  <!---->
+
+  <!---->
+
+  <!---->
+
+</main>
+</div></div>
+    <div id="modal-container"></div>
+    <script integrity="" src="./zingappicon_files/vendor-6a6cfeb5cb594c09ceab1c0e3cccec74.js"></script><div id="ac-gn-viewport-emitter"> </div>
+    <script integrity="" src="./zingappicon_files/web-experience-app-794744c67bacfb643d216b964c495f14.js"></script>
+    <script src="./zingappicon_files/musickit.js"></script>
+
+    <div id="ember-basic-dropdown-wormhole"></div>
+  
+
+<footer id="ac-globalfooter" class="no-js" role="contentinfo" lang="en-US" dir="ltr"><div class="ac-gf-content"><section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		More ways to shop: <a href="https://www.apple.com/retail/" data-analytics-title="find an apple store">Find an Apple Store</a> or <a href="https://locate.apple.com/" data-analytics-title="other retailers or resellers" data-analytics-exit-link="">other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="https://www.apple.com/choose-country-region/" title="Choose your country or region" aria-label="Choose your country or region" data-analytics-title="choose your country"><span class="ac-gf-footer-locale-flag" data-hires="false"></span>Choose your country or region</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright © 2020 Apple Inc. All rights reserved.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/privacy/" data-analytics-title="privacy policy">Privacy Policy</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/internet-services/terms/site.html" data-analytics-title="terms of use">Terms of Use</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/us/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">Sales and Refunds</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/legal/" data-analytics-title="legal">Legal</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/sitemap/" data-analytics-title="site map">Site Map</a>
+		</div>
+	</div>
+</section>
+</div></footer><script type="text/javascript" src="./zingappicon_files/ac-global-nav.40fb014033a1dce2eb83a26e023ba3e9.js" data-global-elements-nav-script="" async=""></script><script type="text/javascript" src="./zingappicon_files/ac-global-footer.87d5225f626f0b9df05fe81d34684040.js" data-global-elements-footer-script="" async=""></script><audio id="apple-music-player" preload="metadata"></audio></body></html>

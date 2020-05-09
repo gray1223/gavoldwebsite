@@ -1,12 +1,15 @@
 .navbar {
-  background-color: #282828 !important;
+  background-color: #282828;
 }
 
 .navbar img {
   width: 4vw;
 }
 
-
+#specialnav a {
+  color: rgb(84, 198, 255) !important;
+  font-weight: bold;
+}
 
 .text {
   height: 8vh;
