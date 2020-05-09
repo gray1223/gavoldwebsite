@@ -46,6 +46,31 @@ nav img {
 .carosel {
   width: 100vw;
 }
+
+/* Delivery */
+
+
+.groups {
+  flex-direction: column;
+}
+
+.delivery-section .title-delivery {
+  font-size: 4vh !important;
+  width: 90vw;
+  text-align: center;
+}
+
+.power {
+  width: 90vw;
+}
+
+.zingapp {
+  flex-direction: column;
+}
+
+.zingapp img {
+  width: 50vw;
+}
 /* Contact */
 
 .contact-section h1 {

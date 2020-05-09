@@ -27,6 +27,32 @@ nav img {
   width: 100vw;
 }
 
-.contact-section {
-  width: 35vw;
+.section {
+  width: 30vw;
+  padding: 3vh;
+}
+
+/* Delivery */
+
+
+.delivery-section .title-delivery {
+  font-size: 6vh !important;
+  width: 90vw;
+  text-align: center;
+}
+
+.power h1 {
+  margin-bottom: 3vh;
+}
+
+.power-list {
+  margin-bottom: 5vh;
+}
+
+.zingapp {
+  flex-direction: column;
+}
+
+.zingapp img {
+  width: 20vw;
 }

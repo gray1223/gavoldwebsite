@@ -45,23 +45,29 @@ nav img {
 .service {
   width: 100%;
 }
+/* Delivery */
 
-/* Portfolio */
 
-
-.carosel {
-  width: 100vw;
+.groups {
+  flex-direction: column;
 }
 
-.portfolio-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: block;
+.delivery-section .title-delivery {
+  font-size: 4vh !important;
+  width: 90vw;
+  text-align: center;
 }
 
-.carosel {
-  width: 100vw;
+.power {
+  width: 90vw;
+}
+
+.zingapp {
+  flex-direction: column;
+}
+
+.zingapp img {
+  width: 50vw;
 }
 /* Contact */
 

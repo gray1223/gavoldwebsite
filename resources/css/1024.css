@@ -17,33 +17,25 @@ nav img {
 }
 
 
-.portfolio-web {
-  max-width: 40vw;
-  justify-content: center;
-  align-items: center;
-  margin: 5vh auto;
+/* Delivery */
+
+
+
+.power h1 {
+  margin-bottom: 3vh;
 }
 
-.portfolio-title {
-  text-align: center;
+.power-list {
+  margin-bottom: 5vh;
 }
 
-.portfolio-section {
-
+.zingapp {
+  flex-direction: row;
 }
 
-.portfolio-content img {
-  margin: 0;
-  margin-bottom: 2vh;
+.zingapp img {
 
-}
-
-.portfolio-title {
-  height: 5vh;
-}
-
-.portfolio-button {
-  width: 15vw;
+  padding: 3vh;
 }
 
 .contact-section {

@@ -117,6 +117,89 @@ body {
   background-image: url("../images/editing.jpeg");
 }
 
+/* Delivery */
+
+.delivery-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(108, 54, 201);
+  color: white;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+
+}
+
+.groups {
+  display: flex;
+  flex-direction: row;
+}
+
+.power {
+  padding: 2vh;
+  margin: 2vh;
+  width: 45%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.power-list ul {
+  list-style-type: disc;
+  text-align: left;
+}
+
+.power-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.power h1 {
+  font-size: 3vh;
+}
+
+.zingapp img {
+  width: 10vw;
+  padding: 3vh;
+  border-radius: 30%;
+}
+
+.power-button button {
+  background-color: #282828;
+  border: 0.3vh solid white;
+  color: white;
+  padding: 1vh;
+}
+
+.download a {
+  color: rgb(84, 198, 255);
+  text-decoration: none;
+}
+
+.download a:hover {
+  color: white;
+}
+
+.zingapp {
+  display: flex;
+  flex-direction: row;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+.zingapp img:hover {
+  cursor: pointer;
+}
+
+.power button:hover {
+  opacity: 0.7;
+}
 
 /* Contact */
 
