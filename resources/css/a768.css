@@ -59,3 +59,17 @@ nav img {
   width: 40vw;
   height: 18vh;
 }
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-container h3 {
+  text-align: center;
+}
+
+.image img {
+  width: 45vw;
+}

@@ -102,42 +102,189 @@
       <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/bookingpage/92bebf5b-ebc0-4131-82f6-a4eed23186f8">Book an Appointment with GAV</a>
     </div>
 
-    <div class="gallery-container">
-      <div class="image-gallery">
-        <h2>Click on an image to enlarge and use the arrow buttons or keys to navigate.</h2>
-          <a href="resources/images/daytona.jpg" data-toggle="lightbox" data-gallery="hidden-images" class="gallery">
-            <img src="resources/images/daytona.jpg" class="img-fluid">
-          </a>
-          <a href="resources/images/DJI_0176.jpeg" data-toggle="lightbox" data-gallery="hidden-images" class="gallery">
-            <img src="resources/images/DJI_0176.jpeg" class="img-fluid">
-          </a>
-          <a href="resources/images/DJI_0169.jpeg" data-toggle="lightbox" data-gallery="hidden-images" class="gallery">
-            <img src="resources/images/DJI_0169.jpeg" class="img-fluid">
-          </a>
-          <a href="resources/images/fountain.jpg" data-toggle="lightbox" data-gallery="hidden-images" class="gallery">
-            <img src="resources/images/fountain.jpg" class="img-fluid">
-          </a>
-          <a href="resources/images/DJI_0015.JPG" data-toggle="lightbox" data-gallery="hidden-images" class="gallery">
-            <img src="resources/images/DJI_0015.JPG" class="img-fluid">
-          </a>
-          <a href="resources/images/DJI_0145.jpg" data-toggle="lightbox" data-gallery="hidden-images" class="gallery">
-            <img src="resources/images/DJI_0145.jpg" class="img-fluid">
-          </a>
-      <!-- elements not showing, use data-remote -->
-          <div data-toggle="lightbox" data-gallery="hidden-images" data-remote="resources/images/aprilrivernorth.jpg"></div>
-          <div data-toggle="lightbox" data-gallery="hidden-images" data-remote="resources/images/DJI_0382.jpg"></div>
-          <div data-toggle="lightbox" data-gallery="hidden-images" data-remote="resources/images/DJI_05070.jpeg"></div>
-          <div data-toggle="lightbox" data-gallery="hidden-images" data-remote="resources/images/gav4.jpg"></div>
-          <div data-toggle="lightbox" data-gallery="hidden-images" data-remote="resources/images/green.png"></div>
+    <script>
+      // Open the Modal
+      function openModal() {
+        document.getElementById("myModal").style.display = "flex";
+      }
 
-        <h2>More photos are in the gallery! Click on a photo
-        and navigate with the arrow buttons to see the rest.</h2>
+      // Close the Modal
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "flex";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+    </script>
+
+
+<div class="gallery-container">
+  <h3>Click on a photo to enter gallery view.</h3>
+      <!-- Images used to open the lightbox -->
+      <div class="images">
+        <div class="image">
+          <img src="resources/images/Summerland.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/Summerland-3.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/Summerland-2.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/Summerland-7.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/wildcat.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/canterbury.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/verde.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/DJI_0169.jpeg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/daytona.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/house.jpeg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/subthree.jpeg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/websiteshot.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/websiteshot-2.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+        </div>
+        <div class="image">
+          <img src="resources/images/websiteshot-3.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+        </div>
+      </div>
+
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+
+            <img src="resources/images/Summerland.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+
+            <img src="resources/images/Summerland-3.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+
+            <img src="resources/images/Summerland-2.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+
+            <img src="resources/images/Summerland-7.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+
+            <img src="resources/images/wildcat.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+
+            <img src="resources/images/canterbury.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+
+            <img src="resources/images/verde.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+
+            <img src="resources/images/DJI_0169.jpeg" style="width:100%">
+          </div>
+          <div class="mySlides">
+
+            <img src="resources/images/daytona.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+
+            <img src="resources/images/house.jpeg" style="width:100%">
+          </div>
+          <div class="mySlides">
+
+            <img src="resources/images/subthree.jpeg" style="width:100%">
+          </div>
+          <div class="mySlides">
+
+            <img src="resources/images/house.jpeg" style="width:100%">
+          </div>
+          <div class="mySlides">
+
+            <img src="resources/images/websiteshot.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+
+            <img src="resources/images/websiteshot-2.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+
+            <img src="resources/images/websiteshot-3.jpg" style="width:100%">
+          </div>
+
+
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+
+        </div>
+      </div>
     </div>
-  </div>
 
 
     <div class="pricing">
-      <h1 class="pricing-title">Packages</h1>
+      <h1 class="pricing-title">Services</h1>
       <div class="groups">
         <div class="group">
           <div class="h1-title">
@@ -154,7 +301,7 @@
             </ul>
           </div>
           <div class="price">
-            <h1>$149</h1>
+            <h1>$150</h1>
           </div>
         </div>
 
@@ -172,7 +319,7 @@
             </ul>
           </div>
           <div class="price">
-            <h1>$109</h1>
+            <h1>$110</h1>
           </div>
         </div>
 
@@ -185,11 +332,11 @@
             <ul>
               <h2>Includes:</h2>
               <li>- Up to 10 high resolution exterior property shots, edited.</li>
-              <li>- 1 8x10 of your favorite shot.</li>
+              <li>- 6 hour delivery.</li>
             </ul>
           </div>
           <div class="price">
-            <h1>$49</h1>
+            <h1>$60</h1>
           </div>
         </div>
 
@@ -205,7 +352,7 @@
             </ul>
           </div>
           <div class="price">
-            <h1>$20</h1>
+            <h1>$25</h1>
           </div>
         </div>
 
@@ -226,6 +373,24 @@
           </div>
           <div class="price">
             <h1>Contact Us</h1>
+          </div>
+        </div>
+
+        <div class="group">
+          <div class="h1-title">
+            <h1>Insurance Inspection (Roof)</h1>
+          </div>
+          <div class="includes">
+
+            <ul>
+              <h2>Includes:</h2>
+              <li>- High quality shots of the exterior.</li>
+              <li>- Close up shots of the roof on every section.</li>
+              <li>- Close up shots of any external features on the roof.</li>
+            </ul>
+          </div>
+          <div class="price">
+            <h1>$50</h1>
           </div>
         </div>
 

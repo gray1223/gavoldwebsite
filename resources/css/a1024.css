@@ -25,3 +25,17 @@
 .book {
   margin-bottom: 1vh;
 }
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-container h3 {
+  text-align: center;
+}
+
+.image img {
+  width: 45vw;
+}
