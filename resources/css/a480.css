@@ -89,6 +89,14 @@ footer {
 }
 
 
+.photo-gallery img {
+  width: auto;
+  display: flex;
+  margin: 0;
+  margin-bottom: 2vh;
+  padding: 0;
+  border: 0.5vh solid #282828;
+}
 
 .quals h1 {
   font-size: 5vh;
