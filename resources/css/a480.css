@@ -118,12 +118,37 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .gallery-container h3 {
   text-align: center;
+  font-size: 2vh;
+}
+
+.gallery-container h1 {
+  font-size: 3.5vh;
+}
+
+.quals h1 {
+  font-size: 5vh;
 }
 
 .img-gallery img {
+  width: 90vw;
+}
+
+.modal-content {
+  max-width: 90%;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client {
   width: 90vw;
 }

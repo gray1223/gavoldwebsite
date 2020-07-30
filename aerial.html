@@ -141,12 +141,12 @@
         }
         slides[slideIndex-1].style.display = "flex";
         dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
       }
     </script>
 
 
 <div class="gallery-container">
+  <h1>Interactive Photo Gallery</h1>
   <h3>Click on a photo to enter gallery view.</h3>
       <!-- Images used to open the lightbox -->
       <div class="images img-gallery">
@@ -244,7 +244,7 @@
           </div>
           <div class="mySlides">
 
-            <img src="resources/images/house.jpeg" style="width:100%">
+            <img src="resources/images/DJI_0169.jpeg" style="width:100%">
           </div>
           <div class="mySlides">
 
@@ -272,15 +272,37 @@
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-          <!-- Caption text -->
-          <div class="caption-container">
-            <p id="caption"></p>
-          </div>
 
 
         </div>
       </div>
     </div>
+
+    <div class="clients-section">
+      <h1 class="pricing-title">Clients and Testimonials</h1>
+      <div class="clients">
+        <div class="client client1">
+          <h3 class="company-title">Aloha Realty of Florida LLC</h3>
+          <h4 class="agent-name">Amy Potter</h4>
+          <p>From Google Review:<br><br>
+            <span id="quotes">“</span>Gray was very professional. I ordered some aerials and needed them quickly. He had them to me the next day. They turned out perfectly! I would definitely hire him again.<span id="quotes">”</span>
+          </p>
+        </div>
+        <div class="client client2">
+          <h3 class="company-title">Chelle Realty Co.</h3>
+          <h4 class="agent-name">Michelle Cecchini</h4>
+          <p>From Google Review:<br><br>
+            <span id="quotes">“</span>The Aerial shots Grayson provided me for my new listing are really beautiful! Thoughtful placement of each shot, he has an eye for the camera. Scheduling with Gray AerialVisual was easy!<span id="quotes">”</span>      </p>
+        </div>
+        <div class="client client3">
+          <h3 class="company-title">Total Solar FL</h3>
+          <h4 class="agent-name">Ryan Dent</h4>
+          <p>From Google Review:<br><br>
+            <span id="quotes">“</span>Grayson was very personable, flexible, and professional. He went the extra mile to get the job done and make sure we got great, high quality aerial photos for our website and marketing materials. Highly recommended!<span id="quotes">”</span>     </div>
+      </div>
+    </div>
+
+
 
 
     <div class="pricing">

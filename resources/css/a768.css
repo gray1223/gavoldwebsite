@@ -73,3 +73,14 @@ nav img {
 .img-gallery img {
   width: 45vw;
 }
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client {
+  width: 80vw;
+}

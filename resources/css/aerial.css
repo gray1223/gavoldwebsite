@@ -58,52 +58,21 @@ body {
   font-size: 5vh;
 }
 
+
 /* Aerial Information */
 
-.aerial-gallery {
-  display: flex;
-  flex-direction: column;
-}
 
-.gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.images-landscapes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1vh;
-}
-
-.images-landscapes img {
-  width: 28vw;
-  margin: 1vw;
-  border: 2vh solid #555555;
-  background-color: #555555;
-
-}
-
-.image-gallery {
-  display: flex;
-  width: 90vw;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-}
 
 .gallery-container h2 {
   font-size: 3vh;
-  width: 90vw;
   text-align: center;
 }
+
+.gallery-container h1 {
+  font-size: 5vh;
+}
+
+
 
 .image-gallery img {
   width: 27vw;
@@ -315,12 +284,7 @@ a {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 90%;
-  max-width: 85%;
-}
-
-.modal-content img {
-  width: 70vw;
+  max-width: 75%;
 }
 
 /* The Close Button */
@@ -385,12 +349,7 @@ a {
 }
 
 /* Caption text */
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
+
 
 img.demo {
   opacity: 0.6;
@@ -409,13 +368,63 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.modal {
+  padding: 0;
+}
 
 .gallery-container {
-  width: 100vw;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  align-items: center;
+  flex-direction: column;
+}
+
+/* Testimonials */
+
+.clients-section {
+  display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: #282828;
+  color: white;
+  padding-top: 5vh;
+  margin-top: 5vh;
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  margin: 2vh;
+  background-color: white;
+  width: 33vw;
+  color: black;
+  border-radius: 2vh;
+}
+
+.client p {
+  font-size: 2.5vh;
+  font-weight: 500;
+}
+
+.company-title {
+  text-align: center;
+}
+
+.agent-name {
+  text-align: center;
+}
+
+.clients-section .pricing-title {
+  text-align: center;
+}
+
+#quotes {
+  font-size: 4vh;
+  line-height: 0;
+  font-weight: semi-bold;
 }
