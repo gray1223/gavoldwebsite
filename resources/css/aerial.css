@@ -72,7 +72,10 @@ body {
   font-size: 5vh;
 }
 
-
+.modal img {
+  width: 90vw;
+  height: 25.5vh;
+}
 
 .image-gallery img {
   width: 27vw;
@@ -82,8 +85,7 @@ body {
 
 .gallery-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 

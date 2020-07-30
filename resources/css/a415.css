@@ -133,6 +133,7 @@ footer {
   text-align: center;
 }
 
+
 .gallery-container h3 {
   text-align: center;
   font-size: 2vh;
@@ -146,12 +147,9 @@ footer {
   font-size: 4vh;
 }
 
-.img-gallery img {
+.modal img {
   width: 90vw;
-}
-
-.modal-content {
-  max-width: 90%;
+  height: 25.5vh;
 }
 
 .clients {
