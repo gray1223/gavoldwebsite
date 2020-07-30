@@ -23,31 +23,13 @@ nav img {
   font-size: 3vh;
 }
 
-.image-gallery img {
-  width: 100vw;
-}
+
 
 .quals {
   height: 20vh;
   margin-bottom: 5vh;
 }
 
-.images-landscapes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.images-landscapes img {
-  width: 80vw;
-  margin: 1vh;
-  border: 1vh solid #555555;
-}
-
-.aerial-gallery {
-  margin-bottom: 3vh;
-}
 
 .info-sections {
   flex-direction: column;
@@ -122,33 +104,12 @@ footer {
   height: 20vh;
 }
 
-.gallery-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.gallery-container h3 {
-  text-align: center;
-  font-size: 2vh;
-}
-
-.gallery-container h1 {
-  font-size: 3.5vh;
-}
 
 .quals h1 {
   font-size: 4vh;
 }
 
-.img-gallery img {
-  width: 90vw;
-}
 
-.modal-content {
-  max-width: 90%;
-}
 /* Testimonials */
 
 .clients {

@@ -31,14 +31,6 @@ nav img {
   text-align: center;
 }
 
-.images-landscapes img {
-  width: 40vw;
-  border: 0.25vh;
-}
-
-.aerial-gallery {
-  margin-bottom: 5vh;
-}
 
 .info-sections {
   flex-direction: column;
@@ -55,24 +47,7 @@ nav img {
   text-align: center;
 }
 
-.videos iframe {
-  width: 40vw;
-  height: 18vh;
-}
 
-.gallery-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.gallery-container h3 {
-  text-align: center;
-}
-
-.img-gallery img {
-  width: 45vw;
-}
 
 .clients {
   display: flex;
